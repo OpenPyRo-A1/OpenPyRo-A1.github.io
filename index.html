@@ -1,1 +1,452 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI">
+  <!-- <meta name="keywords" content="Diffusion, Semantic Rearrangement,
+   Transformer, Manipulation, Language Grounding"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!--<link rel="icon" href="./static/images/favicon.svg">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!--<nav class="navbar" role="navigation" aria-label="main navigation">-->
+  <!--<div class="navbar-brand">-->
+    <!--<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">-->
+      <!--<span aria-hidden="true"></span>-->
+      <!--<span aria-hidden="true"></span>-->
+      <!--<span aria-hidden="true"></span>-->
+    <!--</a>-->
+  <!--</div>-->
+  <!--<div class="navbar-menu">-->
+    <!--<div class="navbar-start" style="flex-grow: 1; justify-content: center;">-->
+      <!--<a class="navbar-item" href="https://keunhong.com">-->
+      <!--<span class="icon">-->
+          <!--<i class="fas fa-home"></i>-->
+      <!--</span>-->
+      <!--</a>-->
+
+      <!--<div class="navbar-item has-dropdown is-hoverable">-->
+        <!--<a class="navbar-link">-->
+          <!--More Research-->
+        <!--</a>-->
+        <!--<div class="navbar-dropdown">-->
+          <!--<a class="navbar-item" href="https://hypernerf.github.io">-->
+            <!--HyperNeRF-->
+          <!--</a>-->
+          <!--<a class="navbar-item" href="https://nerfies.github.io">-->
+            <!--Nerfies-->
+          <!--</a>-->
+          <!--<a class="navbar-item" href="https://latentfusion.github.io">-->
+            <!--LatentFusion-->
+          <!--</a>-->
+          <!--<a class="navbar-item" href="https://photoshape.github.io">-->
+            <!--PhotoShape-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+  <!--</div>-->
+<!--</nav>-->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI</h1>
+          <!-- <h3 class="title is-3 conference-authors">Robotics: Science and Systems (RSS) 2025</h3> -->
+          <div class="is-size-5 publication-authors" style="font-size: 17px  !important;">
+            <span class="author-block">
+              Helong Huang<sup>*</sup>,
+              Christopher E. Mower<sup>*</sup>, Guowei Huang<sup>*</sup>, Sarthak Das, Magnus Dierking, Guangyuan Luo,
+              Kai Tan, Xi Chen, Yehai Yang, Yingbing Chen, Yiming Zeng, Yinchuan Li, Zhanpeng Zhang, 
+              Shuang Wu, Yingxue Zhang, Weichao Qiu, Tongtong Cao, Yuzheng Zhuang, Guangjian Tian, Jianye Hao, Jun Wang, Haitham Bou-Ammar<sup>†</sup>, Xingyue Quan<sup>†</sup>
+            </span>
+
+          </div>
+
+          
+
+
+          <div class="is-size-5 publication-authors" style="display: flex; justify-content: center; gap: 40px; text-align: center;">
+            <!-- First Lab -->
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="media/logo_simple.png" class="interpolation-image"
+                    alt="Huawei Noah's Ark Lab Logo" 
+                    style="width: 50px; height: auto;"/>
+                <span class="author-block">Huawei Noah's Ark Lab</span>
+            </div>
+        
+            <!-- Second Lab -->
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="media/UCL_logo.png" class="interpolation-image"
+                    alt="University College London  Logo" 
+                    style="width: 150px; height: auto;"/>
+                <span class="author-block">University College London</span>
+            </div>
+        </div>
+
+          
+          
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper(Coming soon)</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv(Coming soon)</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://openpyro-a1.github.io/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-tools"></i>
+                      <i class=""></i>
+                  </span>
+                  <span>Assembly Guide(coming soon)</span>
+                  </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://openpyro-a1.github.io/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code(coming soon)</span>
+                  </a>
+              </span>              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="rows">
+    <!-- Animation. -->
+    <div class="rows is-centered ">
+      <div class="row is-full-width">
+        <!-- <h2 class="title is-3"><span class="dnerf">SpatialCoT Overview</span></h2> -->
+        <!-- <h2 class="title is-3" style="text-align: center;"> Data Collection Pipeline for Chain-Of-Thought Spatial Grounding </h2>  -->
+
+        <!-- Interpolating. -->
+        <div class="content has-text-justified">
+        <!-- <br> -->
+        </div>
+        <img src="media/overview.png" class="interpolation-image"
+         alt="Architecture." style="width: 800px; height: auto; display: block; margin: auto;"/>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Many real-world tasks, such as assembly, cooking, and object handovers, require bi-manual coordination. However, learning such skills via imitation for these systems remains challenging due to dataset scarcity, 
+            driven mainly by the high cost of bi-manual robotic platforms and the barriers to entry in robotics software. 
+            To address those challenges, this paper contributes OpenPyRo-A1, a low-cost, bi-manual humanoid robot with a Python-first modular softwarse framework for control, planning, and skill learning. Our system supports VR-based data collection, 
+            imitation learning from vision and low-level positions, and integration with LLMs and VLMs for high-level task planning. We evaluate OpenPyRo-A1 on seven bi-manual tasks, collecting over 350 demonstrations via VR teleoperation and showcasing an agentic framework for executing tasks from natural language instructions. 
+            We hope that the contributions of the OpenPyRo-A1 hardware, the publicly available software stack, and the curated dataset of bi-manual manipulation episodes will advance affordable, scalable dual-arm robotics.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+<section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Teleoperated Tasks</h2>
+      </div>
+      <br>
+  
+    <h3 class="title is-4">▪️ Two-handed Collaboration.</h3>
+    <p>With our designed distributed robot control framework, IK control algorithm, we can smoothly control the robot to complete the dual-arm cooperative task.</p>
+    <br>
+    <div class="columns is-centered">
+
+        <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="media/videos/cut_apple_4x.mp4"
+                    type="video/mp4">
+            </video>
+            <p style="text-align: center;">Cut apple</p>
+        </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/open_bag_and_pick_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Unpack and fetch</p>
+            </div>
+            </div>
+
+        <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="media/videos/fold_clothes_4x.mp4"
+                    type="video/mp4">
+            </video>
+            <p style="text-align: center;">Fold clothes</p>
+        </div>
+        </div>
+
+        
+    </div>
+
+    <div class="columns is-centered">
+
+        <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="media/videos/wash_dishes_4x.mp4"
+                    type="video/mp4">
+            </video>
+            <p style="text-align: center;">Wash dishes</p>
+        </div>
+        </div>
+
+        <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="media/videos/exchange_pick_and_place_4x.mp4"
+                    type="video/mp4">
+            </video>
+            <p style="text-align: center;">Pass the fruit</p>
+        </div>
+        </div>
+
+        <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="media/videos/open_bottle_4x.mp4"
+                    type="video/mp4">
+            </video>
+            <p style="text-align: center;">Open the bottle</p>
+        </div>
+        </div>
+    </div>
+
+
+      <!-- <br> -->
+      <!-- <br> -->
+      <br>
+  
+    <h3 class="title is-4">▪️ Long-Horizon Tasks.</h3>
+    <p>Our robot can easily complete long-horizon tasks.</p>
+    <br>
+    <div class="columns is-centered">
+  
+        <div class="column">
+            <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/arrange_tableware_4x.mp4"
+                        type="video/mp4">
+            </video>
+            <p style="text-align: center;">Arrange tableware</p>
+            </div>
+        </div>
+  
+        <div class="column">
+          <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+              <source src="media/videos/clean_board_and_write_4x.mp4"
+                      type="video/mp4">
+            </video>
+            <p style="text-align: center;">Clean board and write</p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      
+  
+      <h3 class="title is-4">▪️ Precise control.</h3>
+      <p>With our high frequency motor control and calibration, our robot can easily complete precise tasks</p>
+      <br>
+      <div class="columns is-centered">
+        <div class="column">
+  
+        <!-- <div class="column is-narrow"> -->
+          <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline style="width: 200%; max-width: 1150px; height: auto;" >
+              <source src="media/videos/write_noah_4x.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Use Cases</h2>
+      </div>
+      <br>
+  
+    <h3 class="title is-4">▪️ Imitation Learning.</h3>
+    <p> We implemented Dynamic Movement Primitives (DMP) for joint position control and Action Chunking with Transformers (ACT) for vision-based action generation.</p>
+    <br>
+    <div class="columns is-centered">
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/push_apple_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Push apple to the middle of table</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/pick_apple_and_lemon_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Pick and place fruits with two hands</p>
+            </div>
+        </div>    
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/dmp_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Select fruits to pick</p>
+            </div>
+        </div>    
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered has-text-centered">
+        <h2 class="title is-3">Hardware Design</h2>
+      </div>
+      <br>
+  
+    <h3 class="title is-4">▪️ Low-cost, Ease of repair and Scalability.</h3>
+    <p>We consider the following three key principles when designing OpenPyRo-A1: Low-cost, Ease of repair and Scalability</p>
+    <br>
+    <div class="columns is-centered">
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/assemble_logo_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Low cost printed body</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+                <source src="media/videos/repair_gripper_4x.mp4"
+                        type="video/mp4">
+                </video>
+                <p style="text-align: center;">Easy to repair and replace</p>
+            </div>
+        </div>    
+
+    </div>
+  </section>
+
+
+  
+
+
+
+
+</section>
+<section class="section" id="Citation">
+  <div class="container is-max-widescreen content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>coming soon</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <div class="content has-text-centered">
+          <p>
+            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> made by <a href="https://keunhong.com/">Keunhong Park</a>.
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
