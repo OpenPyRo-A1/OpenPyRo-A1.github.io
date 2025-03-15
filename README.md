@@ -13,7 +13,20 @@ If you find OpenPyRo-A1 useful for your work please cite:
 ``` -->
 
 ```
-coming soon
+@misc{huang2025openpyro,
+      title        = {OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI},
+      author       = {Huang, Helong and Mower, Christopher E. and Huang, Guowei 
+                      and Das, Sarthak and Dierking, Magnus and Luo, Guangyuan 
+                      and Tan, Kai and Chen, Xi and Yang, Yehai and Chen, Yingbing 
+                      and Zeng, Yiming and Li, Yinchuan and Zhang, Zhanpeng 
+                      and Wu, Shuang and Zhang, Yingxue and Qiu, Weichao 
+                      and Cao, Tongtong and Zhuang, Yuzheng and Tian, Guangjian 
+                      and Hao, Jianye and Wang, Jun and Bou-Ammar, Haitham 
+                      and Quan, Xingyue},
+      year         = {2025},
+      howpublished = {\url{https://openpyro-a1.github.io/}},
+      note         = {Technical report}
+    }
 ```
 
 # Website License
