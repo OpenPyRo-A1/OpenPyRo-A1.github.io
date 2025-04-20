@@ -7,7 +7,7 @@ Introduction
 ============
 Welcome to the `OpenPyRo-A1 <https://openpyro-a1.github.io/>`_ documentation! This website hosts the hardware assembly guide and usage instructions for our open-source robot.
 
-.. image:: ./_static/images/paper/OpenPyRo-A1.png
+.. image:: ./_static/images/paper/openpyroa1.png
    :alt: OpenPyRo-A1
    :align: center
    :width: 600
