@@ -16,9 +16,7 @@ sphinx:
    configuration: docs/source/conf.py
   
 python:
-  install:
-    - method: pip
-      requirements: docs/requirements.txt
+  requirements_file: docs/requirements.txt
 
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation
