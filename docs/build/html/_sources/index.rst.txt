@@ -430,7 +430,7 @@ Material Statement
    "bearing", "|RU66_bearing|", "1", "used for connecting chest motor and structural parts"
    "M4X30", "|M4X30|", "32", "fix components"
    "M4X45", "|M4X45|", "12", "fix components"
-   "M4X16", "|M4X16|", "8", "fix components"
+   "M4X16", "|M4X16|", "16", "fix components"
    "M6X12", "|M6X12|", "6", "fix components"
 
 
