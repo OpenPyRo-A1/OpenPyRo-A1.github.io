@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. title:: OpenPyRo-A1 Docs
+
+
 Introduction
 ============
 Welcome to the `OpenPyRo-A1 <https://openpyro-a1.github.io/>`_ documentation! This website hosts the hardware assembly guide and usage instructions for our open-source robot.
@@ -122,6 +125,7 @@ Motors
 
 Body structure components
 -------------------------
+Please download the raw step files here: `sample_project.zip <_static/sample_project.zip>`_
 
 .. |base_plate| image:: ./_static/images/structure_components/base_plate.png
    :align: middle
@@ -153,7 +157,12 @@ Body structure components
    :width: 100px
    :alt: front and rear panels of the torso
 
-.. |scapular| image:: ./_static/images/structure_components/scapular.png
+.. |scapular_left| image:: ./_static/images/structure_components/scapular_left.png
+   :align: middle
+   :width: 100px
+   :alt: the shoulder part is used to fix the front and rear chest plates
+
+.. |scapular_right| image:: ./_static/images/structure_components/scapular_right.png
    :align: middle
    :width: 100px
    :alt: the shoulder part is used to fix the front and rear chest plates
@@ -163,12 +172,12 @@ Body structure components
    :width: 100px
    :alt: used to supporte head
 
-.. |shoulder_left_plate| image:: ./_static/images/structure_components/shoulder_left_plate.png
+.. |shoulder_plate_a| image:: ./_static/images/structure_components/shoulder_plate_a.png
    :align: middle
    :width: 100px
    :alt: shoulder motor connection plate
 
-.. |shoulder_right_plate| image:: ./_static/images/structure_components/shoulder_right_plate.png
+.. |shoulder_plate_b| image:: ./_static/images/structure_components/shoulder_plate_b.png
    :align: middle
    :width: 100px
    :alt: shoulder motor connection plate
@@ -219,10 +228,11 @@ Body structure components
    "waist right fixing", "|waist_motor_right_fixing_part|", "1", "used with waist motor fixing plate"
    "waist upper plate", "|waist_motor_upper_plate|", "1", "matched with the left and right fixing plates"
    "chest plate", "|chest_plate|", "2", "front and rear panels of the torso"
-   "scapular", "|scapular|", "2", "used to fix the front and rear chest plates"
+   "scapular_left", "|scapular_left|", "1", "used to fix the front and rear chest plates"
+   "scapular_right", "|scapular_right|", "1", "used to fix the front and rear chest plates"
    "head plate", "|head_plate|", "1", "used for supporting head"
-   "shoulder left plate", "|shoulder_left_plate|", "2", "shoulder motor connection left plate"
-   "shoulder right plate", "|shoulder_right_plate|", "2", "shoulder motor connection right plate"
+   "shoulder plate a", "|shoulder_plate_a|", "2", "shoulder motor connection plate a"
+   "shoulder plate b", "|shoulder_plate_b|", "2", "shoulder motor connection plate b"
    "upper arm", "|upper_arm|", "2", "arm motor 2 and 3 connection component"
    "elbow left", "|elbow_left|", "2", "arm motor 3 and 4 connection component"
    "elbow right", "|elbow_right|", "2", "arm motor 3 and 4 connection component"
@@ -237,6 +247,15 @@ Body structure components
 Screws
 ------
 
+.. |M3X30| image:: ./_static/images/screw/M3X30.png
+   :align: middle
+   :width: 100px
+   :alt: M3X30
+
+.. |M3X45| image:: ./_static/images/screw/M3X45.png
+   :align: middle
+   :width: 100px
+   :alt: M3X45
 
 .. |M4X16| image:: ./_static/images/screw/M4X16.png
    :align: middle
@@ -258,6 +277,10 @@ Screws
    :width: 100px
    :alt: M6X12
 
+.. |M6X22| image:: ./_static/images/screw/M6X22.png
+   :align: middle
+   :width: 100px
+   :alt: M6X22
 
 .. |M8X20| image:: ./_static/images/screw/M8X20.png
    :align: middle
@@ -270,10 +293,13 @@ Screws
    :widths: 50, 50
    :class: white-background
 
+   "M3X30", "|M3X30|"
+   "M3X45", "|M3X45|"
    "M4X16", "|M4X16|"
    "M4X30", "|M4X30|"
    "M4X45", "|M4X45|"
    "M6X12", "|M6X12|"
+   "M6X22", "|M6X22|"
    "M8X20", "|M8X20|"
 
 Mechanical Components
@@ -301,7 +327,6 @@ Tools
    :align: middle
    :width: 100px
    :alt: used to prevent the screws from loosening
-
 
 .. |hexagon_wrench| image:: ./_static/images/tools/hexagon_wrench.png
    :align: middle
@@ -338,6 +363,11 @@ Tools
    :width: 100px
    :alt: fix components and facilitate welding
 
+.. |torque_screwdriver| image:: ./_static/images/tools/torque_screwdriver.png
+   :align: middle
+   :width: 100px
+   :alt: fix components and facilitate welding
+
 
 
 .. csv-table:: material statement for tools
@@ -353,6 +383,8 @@ Tools
    "locking pilers", "|locking_pilers|", "1", "pulling out pins"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
    "soldering fixture", "|soldering_station_fixture|", "1", "fix components and facilitate welding"
+   "torque screwdriver", "|torque_screwdriver|", "1", "set torque to avoid screw stripping"
+
 
 
 
@@ -454,6 +486,42 @@ Secondly, assemble chest motor turntable components.
    :autoplay:
    :loop:
    :muted:
+
+
+
+Right shoulder motor
+--------------------
+From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
+
+Material Statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right shoulder
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "scapular_right", "|scapular_right|", "1", "used to fix the front and rear chest plates"
+   "arm motor 1", "|ph20b_motor|", "1", "motor model: ph20b"
+   "shoulder plate a", "|shoulder_plate_a|", "1", "shoulder motor connection plate a"
+   "M6X22", "|M6X22|", "8", "fix scapular right and chest plates"
+   "M3X45", "|M3X45|", "8", "fix right shoulder motor and right scapular"
+   "M3X30", "|M3X30|", "14", "fix shoulder plate a and right motor"
+   "torque wrench", "|torque_wrench|", "1", "set torque to avoid screw stripping"
+   "hexagon wrench", "|hexagon_wrench|", "1", "used to tighten the screws"
+
+
+Assemble Video(4X speed)
+++++++++++++++++++++++++
+
+
+.. video:: ./_static/videos/right_motor_1.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
 
 
 
