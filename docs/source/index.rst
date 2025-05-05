@@ -368,6 +368,11 @@ Tools
    :width: 100px
    :alt: fix components and facilitate welding
 
+.. |usb_red_can| image:: ./_static/images/tools/usb_red_can.png
+   :align: middle
+   :width: 100px
+   :alt: connect to motor for testing
+
 
 
 .. csv-table:: material statement for tools
@@ -384,6 +389,65 @@ Tools
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
    "soldering fixture", "|soldering_station_fixture|", "1", "fix components and facilitate welding"
    "torque screwdriver", "|torque_screwdriver|", "1", "set torque to avoid screw stripping"
+   "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
+
+
+Accessories
+-----------
+
+.. |XT30U_m_connector| image:: ./_static/images/accessories/XT30U_m_connector.png
+   :align: middle
+   :width: 100px
+   :alt: used for lithium battery plug
+
+.. |cold_pressed_round_terminal| image:: ./_static/images/accessories/cold_pressed_round_terminal.png
+   :align: middle
+   :width: 100px
+   :alt: used for electrical connection
+
+.. |plastic_shell| image:: ./_static/images/accessories/plastic_shell.png
+   :align: middle
+   :width: 100px
+   :alt: 
+
+.. |lead_free_solder_wire| image:: ./_static/images/accessories/lead_free_solder_wire.png
+   :align: middle
+   :width: 100px
+   :alt: 
+
+.. |reed| image:: ./_static/images/accessories/reed.png
+   :align: middle
+   :width: 100px
+   :alt: 
+
+.. |silicone_wire| image:: ./_static/images/accessories/silicone_wire.png
+   :align: middle
+   :width: 100px
+   :alt: 
+
+.. |power_wire_13AWG| image:: ./_static/images/accessories/power_wire_13AWG.png
+   :align: middle
+   :width: 100px
+   :alt: 
+
+   
+
+
+.. csv-table:: material statement for accessories
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
+   "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
+   "plastic shell", "|plastic_shell|", "1", ""
+   "lead free solder wire", "|lead_free_solder_wire|", "1", ""
+   "reed", "|reed|", "1", ""
+   "silicone_wire", "|silicone_wire|", "1", ""
+   "power_wire_13AWG", "|power_wire_13AWG|", "1", ""
+
+
+
 
 
 
@@ -435,9 +499,6 @@ Assemble Video(4X speed)
    :autoplay:
    :loop:
    :muted:
-
-
-
 
 
 Chest Motor
@@ -523,12 +584,63 @@ Assemble Video(4X speed)
 
 
 
+Power and signal 
+--------------------
+The power wire is used to supply power to the motor, and the signal wire is used for motor communication. Please follow the instructions to assemble.
+
+Material Statement
+++++++++++++++++++
+
+.. csv-table:: material statement for power and signal wire
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
+   "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
+   "plastic shell", "|plastic_shell|", "1", ""
+   "reed", "|reed|", "1", ""
+   "silicone_wire", "|silicone_wire|", "1", ""
+   "wire strippers", "|wire_strippers|", "1", "stripping wires"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
+   "power_wire_13AWG", "|power_wire_13AWG|", "1", ""
 
 
 
+Assemble Video(4X speed)
+++++++++++++++++++++++++
+
+Firstly, make the power wire.
+
+.. video:: ./_static/videos/power_wire.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+.. Combine power wire with power, you will get:
+
+.. .. image:: ./_static/images/made/power_and_wire.png
+..    :width: 50%
+   
 
 
+Secondly, make the signal wire.
 
+.. video:: ./_static/videos/signal_wire.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+.. Combine signal wire with usb red can, you will get:
+
+.. .. image:: ./_static/images/made/can_and_wire.png
+..    :width: 50%
+
+
+Waist motor zero adjustment
+---------------------------
 
 
 
