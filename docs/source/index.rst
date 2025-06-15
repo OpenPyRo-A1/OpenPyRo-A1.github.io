@@ -114,18 +114,19 @@ Motors
    :widths: 10, 30, 10, 50
    :class: white-background
 
-   "waist and chest", "|ph25b_motor|", "2", "motor model: ph25b, please `see <#>`_"
-   "arm motor 1", "|ph20b_motor|", "2", "motor model: ph20b, please `see <#>`_"
-   "arm motor 2,3", "|ph17b_motor|", "4", "motor model: ph17b, please `see <#>`_"
-   "arm motor 4,5", "|ph14b_motor|", "4", "motor model: ph17b, please `see <#>`_"
-   "arm motor 6,7", "|ph11b_motor|", "4", "motor model: ph14b, please `see <#>`_"
-   "gripper motor", "|damiao_motor|", "2", "motor model: DM-J4310-2EC, please `see <#>`_"
+   "waist and chest", "|ph25b_motor|", "2", "motor model: ph25b"
+   "arm motor 1", "|ph20b_motor|", "2", "motor model: ph20b"
+   "arm motor 2,3", "|ph17b_motor|", "4", "motor model: ph17b"
+   "arm motor 4,5", "|ph14b_motor|", "4", "motor model: ph17b"
+   "arm motor 6,7", "|ph11b_motor|", "4", "motor model: ph14b"
+   "gripper motor", "|damiao_motor|", "2", "motor model: DM-J4310-2EC"
+
 
 
 
 Body structure components
 -------------------------
-Please download the raw step files here: `sample_project.zip <_static/sample_project.zip>`_
+.. Please download the raw step files here: `sample_project.zip <_static/sample_project.zip>`_
 
 .. |base_plate| image:: ./_static/images/structure_components/base_plate.png
    :align: middle
@@ -228,8 +229,8 @@ Please download the raw step files here: `sample_project.zip <_static/sample_pro
    "waist right fixing", "|waist_motor_right_fixing_part|", "1", "used with waist motor fixing plate"
    "waist upper plate", "|waist_motor_upper_plate|", "1", "matched with the left and right fixing plates"
    "chest plate", "|chest_plate|", "2", "front and rear panels of the torso"
-   "scapular_left", "|scapular_left|", "1", "used to fix the front and rear chest plates"
-   "scapular_right", "|scapular_right|", "1", "used to fix the front and rear chest plates"
+   "scapular left", "|scapular_left|", "1", "used to fix the front and rear chest plates"
+   "scapular right", "|scapular_right|", "1", "used to fix the front and rear chest plates"
    "head plate", "|head_plate|", "1", "used for supporting head"
    "shoulder plate a", "|shoulder_plate_a|", "2", "shoulder motor connection plate a"
    "shoulder plate b", "|shoulder_plate_b|", "2", "shoulder motor connection plate b"
@@ -302,7 +303,7 @@ Screws
    "M6X22", "|M6X22|"
    "M8X20", "|M8X20|"
 
-Mechanical Components
+Mechanical components
 ---------------------
 
 .. |RU66_bearing| image:: ./_static/images/mechanical_components/RU66_bearing.png
@@ -348,6 +349,11 @@ Tools
    :width: 100px
    :alt: stripping wires
 
+.. |multifunctional_wire_stripper| image:: ./_static/images/tools/multifunctional_wire_stripper.png
+   :align: middle
+   :width: 100px
+   :alt: multifunctional wire stripper
+
 .. |locking_pilers| image:: ./_static/images/tools/locking_pliers.png
    :align: middle
    :width: 100px
@@ -373,6 +379,11 @@ Tools
    :width: 100px
    :alt: connect to motor for testing
 
+.. |power| image:: ./_static/images/tools/power.png
+   :align: middle
+   :width: 100px
+   :alt: provide 48V voltage
+
 
 
 .. csv-table:: material statement for tools
@@ -384,12 +395,14 @@ Tools
    "hexagon wrench", "|hexagon_wrench|", "1", "used to tighten the screws"
    "torque wrench", "|torque_wrench|", "1", "set torque to avoid screw stripping"
    "vise", "|vise|", "1", "securely hold an object in place"
-   "wire strippers", "|wire_strippers|", "1", "stripping wires"
+   "wire stripper", "|wire_strippers|", "1", "stripping wires"
+   "wire stripper", "|multifunctional_wire_stripper|", "1", "stripping wires"
    "locking pilers", "|locking_pilers|", "1", "pulling out pins"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
    "soldering fixture", "|soldering_station_fixture|", "1", "fix components and facilitate welding"
    "torque screwdriver", "|torque_screwdriver|", "1", "set torque to avoid screw stripping"
    "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
+   "power", "|power|", "1", "provide 48V voltage"
 
 
 Accessories
@@ -444,7 +457,7 @@ Accessories
    "lead free solder wire", "|lead_free_solder_wire|", "1", ""
    "reed", "|reed|", "1", ""
    "silicone_wire", "|silicone_wire|", "1", ""
-   "power_wire_13AWG", "|power_wire_13AWG|", "1", ""
+   "power_wire_13AWG", "|power_wire_13AWG|", "1", "power wire material"
 
 
 
@@ -453,13 +466,82 @@ Accessories
 
 
 Power system
-============================================
-coming soon
+============
+
+Power wire
+-----------
+The power module provides 48V voltage, making power wire for power.
+
+
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for power system
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "power", "|power|", "1", "provide 48V voltage"
+   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
+   "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
+   "wire strippers", "|wire_strippers|", "1", "stripping wires"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
+   "power_wire_13AWG", "|power_wire_13AWG|", "1", "power wire material"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/power_wire.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+
+
 
 
 CAN system
 ============================================
-coming soon
+
+
+CAN wire
+-----------
+Produce CAN signal wire for communication between CAN device and motors.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for can wire
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "reed", "|reed|", "1", ""
+   "silicone_wire", "|silicone_wire|", "1", ""
+   "wire strippers", "|wire_strippers|", "1", "stripping wires"
+   "wire stripper", "|multifunctional_wire_stripper|", "1", "stripping wires"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/signal_wire.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+
 
 
 Integration
@@ -469,13 +551,13 @@ This page will guide you through the process of assembling all components into t
 
 
 
-Waist Motor
+Waist motor
 -----------
 The waist motor provides the robot with the ability to rotate left and right. Please follow the instructions to assemble.
 
 
 
-Material Statement
+Material statement
 ++++++++++++++++++
 
 .. csv-table:: material statement for waist
@@ -491,7 +573,7 @@ Material Statement
    "M4X45", "|M4X45|", "13", "fix waist motor and plate"
 
 
-Assemble Video(4X speed)
+Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/waist.mp4
@@ -501,12 +583,12 @@ Assemble Video(4X speed)
    :muted:
 
 
-Chest Motor
+Chest motor
 -----------
 The chest provide with one freedom to turn up and down, what we need as follows. Please follow the instructions to assemble.
 
 
-Material Statement
+Material statement
 ++++++++++++++++++
 
 .. csv-table:: material statement for chest
@@ -528,7 +610,7 @@ Material Statement
 
 
 
-Assemble Video(4X speed)
+Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 Firstly, assemble the chest motor and its components.
@@ -554,7 +636,7 @@ Right shoulder motor
 --------------------
 From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
 
-Material Statement
+Material statement
 ++++++++++++++++++
 
 .. csv-table:: material statement for right shoulder
@@ -572,7 +654,7 @@ Material Statement
    "hexagon wrench", "|hexagon_wrench|", "1", "used to tighten the screws"
 
 
-Assemble Video(4X speed)
+Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 
@@ -584,63 +666,40 @@ Assemble Video(4X speed)
 
 
 
-Power and signal 
---------------------
-The power wire is used to supply power to the motor, and the signal wire is used for motor communication. Please follow the instructions to assemble.
 
-Material Statement
-++++++++++++++++++
-
-.. csv-table:: material statement for power and signal wire
-   :header: "Name", "Image", "Quantity", "Notes"
-   :widths: 10, 30, 10, 50
-   :class: white-background
-
-   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
-   "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
-   "plastic shell", "|plastic_shell|", "1", ""
-   "reed", "|reed|", "1", ""
-   "silicone_wire", "|silicone_wire|", "1", ""
-   "wire strippers", "|wire_strippers|", "1", "stripping wires"
-   "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
-   "power_wire_13AWG", "|power_wire_13AWG|", "1", ""
-
-
-
-Assemble Video(4X speed)
-++++++++++++++++++++++++
-
-Firstly, make the power wire.
-
-.. video:: ./_static/videos/power_wire.mp4
-   :width: 100%
-   :autoplay:
-   :loop:
-   :muted:
-
-.. Combine power wire with power, you will get:
-
-.. .. image:: ./_static/images/made/power_and_wire.png
-..    :width: 50%
-   
-
-
-Secondly, make the signal wire.
-
-.. video:: ./_static/videos/signal_wire.mp4
-   :width: 100%
-   :autoplay:
-   :loop:
-   :muted:
-
-.. Combine signal wire with usb red can, you will get:
-
-.. .. image:: ./_static/images/made/can_and_wire.png
-..    :width: 50%
 
 
 Waist motor zero adjustment
 ---------------------------
+The waist motor is adjusted to its zero position through software.
+
+Material Statement
+++++++++++++++++++
+
+.. csv-table:: material statement for waist motor zero position adjustment
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
+   "M3X30", "|M3X30|", "1", "fix support plate and waist motor"
+   "locking pilers", "|locking_pilers|", "1", "pulling out pins"
+   "power", "|power|", "1", "provide 48V voltage"
+
+
+
+
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/waist_motor_zero_adjustment.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
 
 
 
