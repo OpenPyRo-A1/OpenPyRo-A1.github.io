@@ -77,6 +77,10 @@ Bill of materials (BOM)
 Motors
 ------
 
+.. raw:: html
+
+   Joint motors procurement website: <a href="http://www.eyoubot.com/" target="_blank" rel="noopener noreferrer">link</a><br>
+   Gripper motors procurement website: <a href="https://www.mdmbot.com/" target="_blank" rel="noopener noreferrer">link</a>
 
 .. |ph25b_motor| image:: ./_static/images/motors/ph25b.png
    :align: middle
