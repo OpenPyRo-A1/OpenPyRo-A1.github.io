@@ -74,14 +74,19 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI</h1>
+          <!-- <h1 class="title is-1 publication-title">OpenPyRo-A1: An Open Python-based Low-Cost Bimanual Robot for Embodied AI</h1> -->
+          <h1 class="title is-1 publication-title">OpenPyRo-A1</h1>
           <!-- <h3 class="title is-3 conference-authors">Robotics: Science and Systems (RSS) 2025</h3> -->
           <div class="is-size-5 publication-authors" style="font-size: 17px  !important;">
-            <span class="author-block">
+            <!-- <span class="author-block">
               Helong Huang<sup>*</sup>,
               Christopher E. Mower<sup>*</sup>, Guowei Huang<sup>*</sup>, Sarthak Das, Magnus Dierking, Guangyuan Luo,
               Kai Tan, Xi Chen, Yehai Yang, Yingbing Chen, Yiming Zeng, Yinchuan Li, Zhanpeng Zhang, 
               Shuang Wu, Yingxue Zhang, Weichao Qiu, Tongtong Cao, Yuzheng Zhuang, Guangjian Tian, Jianye Hao, Jun Wang, Haitham Bou-Ammar<sup>†</sup>, Xingyue Quan<sup>†</sup>
+            </span> -->
+
+            <span class="author-block">
+              <h3 class="title is-5">Anonymous author</h3>
             </span>
 
           </div>
@@ -89,8 +94,7 @@
           
 
 
-          <div class="is-size-5 publication-authors" style="display: flex; justify-content: center; gap: 40px; text-align: center;">
-            <!-- First Lab -->
+          <!-- <div class="is-size-5 publication-authors" style="display: flex; justify-content: center; gap: 40px; text-align: center;">
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <img src="media/logo_simple.png" class="interpolation-image"
                     alt="Huawei Noah's Ark Lab Logo" 
@@ -98,14 +102,13 @@
                 <span class="author-block">Huawei Noah's Ark Lab</span>
             </div>
         
-            <!-- Second Lab -->
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <img src="./media/UCL_logo.png" class="interpolation-image"
                     alt="University College London Logo" 
                     style="width: 170px; height: auto;"/>
                 <span class="author-block">University College London</span>
             </div>
-        </div>
+        </div> -->
 
           
           
@@ -114,12 +117,19 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./media/paper/paper.pdf"
+                <!-- <a href="./media/paper/paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
+                </a> -->
+                <a href="https://openpyro-a1.github.io/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper(under review)</span>
                 </a>
               </span>
               <!-- <span class="link-block">
@@ -160,18 +170,13 @@
     </div>
   </div>
 </section>
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-widescreen">
     <div class="rows">
-    <!-- Animation. -->
     <div class="rows is-centered ">
       <div class="row is-full-width">
-        <!-- <h2 class="title is-3"><span class="dnerf">SpatialCoT Overview</span></h2> -->
-        <!-- <h2 class="title is-3" style="text-align: center;"> Data Collection Pipeline for Chain-Of-Thought Spatial Grounding </h2>  -->
 
-        <!-- Interpolating. -->
         <div class="content has-text-justified">
-        <!-- <br> -->
         </div>
         <img src="media/overview.png" class="interpolation-image"
          alt="Architecture." style="width: 800px; height: auto; display: block; margin: auto;"/>
@@ -179,11 +184,10 @@
     </div>
   </div>
   </div>
-</section>
+</section> -->
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -198,14 +202,35 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+  </div>
+</section> -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Framework</h2>
+        <div class="content has-text-justified">
+          <img src="media/framework.png" class="interpolation-image" alt="Architecture." style="display: block; margin: auto;"/>
+        </div>
+        <!-- <p>What we have done: (1) We developed OpenPyRo-A1, a low-cost dual-arm humanoid robot. (2) A Python-first distributed control framework with libraries for collecting data with VR teleoperation. (3) A dataset of bi-manual manipulation episodes, integrated with machine learning algorithms for skill learning from vision and low-level positional data. (4) An agentic framework for planning through large language and vision-language models.</p> -->
+        <div class="content has-text-left">
+          <p><strong>What we have done:</strong></p>
+          <ol type="1">
+            <li><strong>OpenPyRo-A1:</strong> Developed a low-cost dual-arm humanoid robot.</li>
+            <li><strong>Distributed Framework:</strong> Built a Python-first control framework with VR teleoperation support.</li>
+            <li><strong>Bi-manual Dataset:</strong> Collected manipulation episodes for skill learning.</li>
+            <li><strong>Agentic Planning:</strong> Proposed a framework using large language and vision-language models.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
@@ -216,9 +241,144 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
   </div>
+</section> -->
+
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Imitation Learning</h2>
+    </div>
+    <br>
+
+  <h3 class="title is-4">▪️ ACT</h3>
+  <p>To enable dual-arm manipulation, we designed tasks that required coordinated operation of both hands. Data were collected using our distributed teleoperation system, and subsequently used to train the ACT model for inference during deployment.</p>
+  <br>
+  <div class="columns is-centered">
+
+      <div class="column">
+      <div class="content">
+          <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+          <source src="./media/videos/cut_corn_4x.webm"
+                  type="video/webm">
+          </video>
+          <p style="text-align: center;">Cut Corn</p>
+      </div>
+      </div>
+
+      <div class="column">
+          <div class="content">
+              <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+              <source src="./media/videos/play_two_tigers_4x.webm"
+                      type="video/webm">
+              </video>
+              <p style="text-align: center;">Play Music Two Tigers</p>
+          </div>
+          </div>
+
+      
+
+      
+  </div>
+
+  <div class="columns is-centered">
+    <div class="column">
+      <div class="content">
+          <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+          <source src="./media/videos/dual_arm_pick_place_simultaneously_4x.webm"
+                  type="video/webm">
+          </video>
+          <p style="text-align: center;">Pick Apple and Lemon Several Times</p>
+      </div>
+    </div>    
+
+
+    <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="./media/videos/pick_exchange_banana_4x.webm"
+                    type="video/webm">
+            </video>
+            <p style="text-align: center;">Exchange Banana</p>
+        </div>
+    </div>
+  </div>
+
+
+    <!-- <br> -->
+    <!-- <br> -->
+    <br>
+
+  <h3 class="title is-4">▪️ &pi;<sub>0</sub></h3>
+  <p>We conducted further experiments on VLA, using &pi;<sub>0</sub> as the pre-trained model for fine-tuning.
+  </p>
+  <br>
+  <div class="columns is-centered">
+
+      <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="./media/videos/open_drawer_and_pick_4x.webm"
+                    type="video/webm">
+            </video>
+            <p style="text-align: center;">Open Drawer and Pick</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="content">
+            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="./media/videos/stack_cups_4x.webm"
+                    type="video/webm">
+            </video>
+            <p style="text-align: center;">Stack Cups</p>
+        </div>
+      </div>
+
+
+
+      
+  </div>
+
+  <div class="columns is-centered">
+
+    <div class="column">
+      <div class="content">
+          <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+          <source src="./media/videos/clean_table_4x.webm"
+                  type="video/webm">
+          </video>
+          <p style="text-align: center;">Clean Table</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+          <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+          <source src="./media/videos/open_drawer_and_pick.webm"
+                  type="video/webm">
+          </video>
+          <p style="text-align: center;">Pour Rice</p>
+      </div>
+    </div>
+      
+  </div>
+
+
+
+
+
+
+    <br>
+
+
+
+  
 </section>
+
+
+
 
 
 <section class="section">
@@ -239,7 +399,7 @@
             <source src="./media/videos/cut_apple_4x.webm"
                     type="video/webm">
             </video>
-            <p style="text-align: center;">Cut apple</p>
+            <p style="text-align: center;">Cut Apple</p>
         </div>
         </div>
 
@@ -249,7 +409,7 @@
                 <source src="./media/videos/open_bag_and_pick_4x.webm"
                         type="video/webm">
                 </video>
-                <p style="text-align: center;">Unpack and fetch</p>
+                <p style="text-align: center;">Unpack and Fetch</p>
             </div>
             </div>
 
@@ -259,7 +419,7 @@
             <source src="./media/videos/fold_clothes_4x.webm"
                     type="video/webm">
             </video>
-            <p style="text-align: center;">Fold clothes</p>
+            <p style="text-align: center;">Fold Clothes</p>
         </div>
         </div>
 
@@ -274,7 +434,7 @@
             <source src="./media/videos/wash_dishes_4x.webm"
                     type="video/webm">
             </video>
-            <p style="text-align: center;">Wash dishes</p>
+            <p style="text-align: center;">Wash Dishes</p>
         </div>
         </div>
 
@@ -284,7 +444,7 @@
             <source src="./media/videos/exchange_pick_and_place_4x.webm"
                     type="video/webm">
             </video>
-            <p style="text-align: center;">Pass the fruit</p>
+            <p style="text-align: center;">Pass the Fruit</p>
         </div>
         </div>
 
@@ -294,7 +454,7 @@
             <source src="./media/videos/open_bottle_4x.webm"
                     type="video/webm">
             </video>
-            <p style="text-align: center;">Open the bottle</p>
+            <p style="text-align: center;">Open the Bottle</p>
         </div>
         </div>
     </div>
@@ -315,7 +475,7 @@
                 <source src="./media/videos/arrange_tableware_4x.webm"
                         type="video/webm">
             </video>
-            <p style="text-align: center;">Arrange tableware</p>
+            <p style="text-align: center;">Arrange Tableware</p>
             </div>
         </div>
   
@@ -325,7 +485,7 @@
               <source src="./media/videos/clean_board_and_write_4x.webm"
                       type="video/webm">
             </video>
-            <p style="text-align: center;">Clean board and write</p>
+            <p style="text-align: center;">Clean Board and Write</p>
           </div>
         </div>
   
@@ -334,8 +494,8 @@
   
       
   
-      <h3 class="title is-4">▪️ Precise control</h3>
-      <p>With our high frequency motor control and calibration, our robot can easily complete precise tasks</p>
+      <h3 class="title is-4">▪️ Precise Control</h3>
+      <p>With our high frequency motor control and calibration, our robot can easily complete precise tasks.</p>
       <br>
       <div class="columns is-centered">
         <div class="column">
@@ -345,107 +505,35 @@
             <video id="dollyzoom" autoplay controls muted playsinline style="width: 200%; max-width: 1150px; height: auto;" >
               <source src="./media/videos/write_noah_4x.webm" type="video/webm">
             </video>
-            <p style="text-align: center;">Write with marker pen</p>
+            <p style="text-align: center;">Write with Marker Pen</p>
           </div>
         </div>
       </div>
 
     </div>
-  </section>
+</section>
 
 
 
   <section class="section">
     <div class="container is-max-widescreen">
       <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Use Cases</h2>
+        <h2 class="title is-3">Embodied AI</h2>
       </div>
       <br>
-  
-    <h3 class="title is-4">▪️ Imitation Learning</h3>
-    <p> We integrated Action Chunking with Transformers (ACT) and Dynamic Movement Primitives (DMP).</p>
-    <br>
-    <div class="columns is-centered">
-
-        <div class="column">
-            <div class="content">
-                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
-                <source src="./media/videos/push_apple_4x.webm"
-                        type="video/webm">
-                </video>
-                <p style="text-align: center;">Push apple to the middle of table</p>
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="content">
-                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
-                <source src="./media/videos/pick_apple_and_lemon_4x.webm"
-                        type="video/webm">
-                </video>
-                <p style="text-align: center;">Pick and place fruits with two hands</p>
-            </div>
-        </div>    
-
-        <div class="column">
-            <div class="content">
-                <video id="dollyzoom" autoplay controls muted playsinline height="100%">
-                <source src="./media/videos/open_cupboard_4x.webm"
-                        type="video/webm">
-                </video>
-                <p style="text-align: center;">Open cupboard and reach to the target</p>
-            </div>
-        </div>    
-
-    </div>
-
-    <div class="columns is-centered">
-
-      <div class="column">
-        <div class="content">
-            <video id="dollyzoom" autoplay controls muted playsinline height="100%">
-            <source src="./media/videos/dual_arm_pick_place_simultaneously_4x.webm"
-                    type="video/webm">
-            </video>
-            <p style="text-align: center;">Try to grab with both hands several times</p>
-        </div>
-      </div>    
 
 
-      <div class="column">
-          <div class="content">
-              <video id="dollyzoom" autoplay controls muted playsinline height="100%">
-              <source src="./media/videos/pick_exchange_banana_4x.webm"
-                      type="video/webm">
-              </video>
-              <p style="text-align: center;">Pass a banana</p>
-          </div>
-      </div>
-
-      
-  </div>
-
-    <h3 class="title is-4">▪️ Embodied AI</h3>
-    <p> We present an agent framework that uses a large language model (Deepseek) and a vision-language model (InternVL) to orchestrate a library of learned policies, enabling task execution from natural spoken language instructions. We demonstrate that the system can parse the scene, select relevant skills, and successfully complete a high-level task (e.g., filling a basket with fruit) while ignoring unnecessary actions. </p>
+    <p> We present an agent framework that uses a large language model (Deepseek) and a vision-language model (InternVL) to orchestrate a library of learned policies, enabling task execution from natural spoken language instructions. We demonstrate that the system can parse the scene, select relevant skills, and successfully complete a high-level task. </p>
     <br>
     <img src="./media/noahr-emodied-ai-expr-agent_1.png" class="interpolation-image"
       alt="Architecture." style="width: 800px; height: auto; display: block; margin: auto;"/>
     <br>
 
     <div class="columns is-centered">
-      <div class="column">
-
-      <!-- <div class="column is-narrow"> -->
-        <div class="content">
-          <video id="dollyzoom" autoplay controls muted playsinline style="width: 200%; max-width: 1150px; height: auto;" >
-            <source src="./media/videos/dmp_4x.webm" type="video/webm">
-          </video>
-          <p style="text-align: center;">Choose fruits that are yellow in color</p>
-        </div>
-      </div>
+      
     </div>
 
-    <h3 class="title is-4">▪️ More demonstrations</h3>
+    <h3 class="title is-4">▪️ High Level Tasks</h3>
     <br>
     <div class="columns is-centered">
   
@@ -465,9 +553,20 @@
             <source src="./media/videos/pro_pour_water_4x.webm"
                     type="video/webm">
           </video>
-          <p style="text-align: center;">Pour water</p>
+          <p style="text-align: center;">Pour Water</p>
         </div>
       </div>
+
+      <div class="column">
+        <div class="content">
+          <video id="dollyzoom" autoplay controls muted playsinline height="100%">
+            <source src="./media/videos/dmp_4x.webm"
+                    type="video/webm">
+          </video>
+          <p style="text-align: center;">Choose Fruits with Yellow in Color</p>
+        </div>
+      </div>
+      
     </div>
 
   </section>
@@ -481,8 +580,8 @@
       </div>
       <br>
   
-    <h3 class="title is-4">▪️ Low-cost, Ease of repair and Scalability</h3>
-    <p>We consider the following three key principles when designing OpenPyRo-A1: Low-cost, Ease of repair and Scalability</p>
+    <h3 class="title is-4">▪️ Low-cost, Ease of Repair and Scalability</h3>
+    <p>We consider the following three key principles when designing OpenPyRo-A1: Low-cost, Ease of repair and Scalability.</p>
     <br>
     <div class="columns is-centered">
 
@@ -492,7 +591,7 @@
                 <source src="./media/videos/assemble_logo_4x.webm"
                         type="video/webm">
                 </video>
-                <p style="text-align: center;">Low cost printed body</p>
+                <p style="text-align: center;">Low Cost Printed Body</p>
             </div>
         </div>
 
@@ -502,7 +601,7 @@
                 <source src="./media/videos/repair_gripper_4x.webm"
                         type="video/webm">
                 </video>
-                <p style="text-align: center;">Easy to repair and replace</p>
+                <p style="text-align: center;">Easy to Repair and Replace</p>
             </div>
         </div>    
 
@@ -515,7 +614,7 @@
 
 
 
-</section>
+<!-- </section>
 <section class="section" id="Citation">
   <div class="container is-max-widescreen content">
     <h2 class="title">BibTeX</h2>
@@ -534,7 +633,7 @@
       note         = {Technical report}
     }</code></pre>
   </div>
-</section>
+</section> -->
 
 
 <footer class="footer">
