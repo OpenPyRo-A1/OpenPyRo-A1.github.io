@@ -33,3 +33,13 @@ html_static_path = ['_static']
 html_css_files = [
       'css/custom.css',
   ]
+
+
+# invisable
+html_meta = {
+    'robots': 'noindex, nofollow',  
+}
+html_theme_options = {
+    'show_powered_by': False,      
+    'analytics_id': '',            
+}
