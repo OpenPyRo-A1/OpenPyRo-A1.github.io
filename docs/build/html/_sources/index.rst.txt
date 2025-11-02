@@ -74,13 +74,28 @@ Supports modular firmware updates and includes pre-drilled expansion points, all
 Bill of materials (BOM)
 ============================================
 
-Motors
-------
+
+Robot design and procurement resources
+--------------------------------------
+
+:download:`Robot design URDF files <_static/step_files/robot_design.STEP.zip>`
+
+:download:`Robot design STEP files <_static/step_files/robot_design.STEP.zip>`
+
 
 .. raw:: html
 
-   Joint motors procurement website: <a href="http://www.eyoubot.com/" target="_blank" rel="noopener noreferrer">link</a><br>
-   Gripper motors procurement website: <a href="https://www.mdmbot.com/" target="_blank" rel="noopener noreferrer">link</a>
+   <p>
+   Joint motors procurement website: 
+   <a href="http://www.eyoubot.com/" target="_blank" rel="noopener noreferrer">link</a><br>
+   Gripper motors procurement website: 
+   <a href="https://www.mdmbot.com/" target="_blank" rel="noopener noreferrer">link</a>
+   </p>
+
+
+Motors
+------
+
 
 .. |ph25b_motor| image:: ./_static/images/motors/ph25b.png
    :align: middle
@@ -252,10 +267,30 @@ Body structure components
 Screws
 ------
 
+.. |M3X14| image:: ./_static/images/screw/M3X14.png
+   :align: middle
+   :width: 100px
+   :alt: M3X14
+
+.. |M3X20| image:: ./_static/images/screw/M3X20.png
+   :align: middle
+   :width: 100px
+   :alt: M3X20
+
+.. |M3X25| image:: ./_static/images/screw/M3X25.png
+   :align: middle
+   :width: 100px
+   :alt: M3X25
+
 .. |M3X30| image:: ./_static/images/screw/M3X30.png
    :align: middle
    :width: 100px
    :alt: M3X30
+
+.. |M3X35| image:: ./_static/images/screw/M3X35.png
+   :align: middle
+   :width: 100px
+   :alt: M3X35
 
 .. |M3X45| image:: ./_static/images/screw/M3X45.png
    :align: middle
@@ -277,6 +312,11 @@ Screws
    :width: 100px
    :alt: M4X45
 
+.. |M5X20| image:: ./_static/images/screw/M5X20.png
+   :align: middle
+   :width: 100px
+   :alt: M5X20
+
 .. |M6X12| image:: ./_static/images/screw/M6X12.png
    :align: middle
    :width: 100px
@@ -294,18 +334,22 @@ Screws
 
 
 .. csv-table:: material statement for screws
-   :header: "Name", "Image"
-   :widths: 50, 50
+   :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "M3X30", "|M3X30|"
-   "M3X45", "|M3X45|"
-   "M4X16", "|M4X16|"
-   "M4X30", "|M4X30|"
-   "M4X45", "|M4X45|"
-   "M6X12", "|M6X12|"
-   "M6X22", "|M6X22|"
-   "M8X20", "|M8X20|"
+   "M3X14", "|M3X14|", "100"
+   "M3X20", "|M3X20|", "100"
+   "M3X25", "|M3X25|", "100"
+   "M3X30", "|M3X30|", "100"
+   "M3X35", "|M3X35|", "100"
+   "M3X45", "|M3X45|", "100"
+   "M4X16", "|M4X16|", "100"
+   "M4X30", "|M4X30|", "100"
+   "M4X45", "|M4X45|", "100"
+   "M5X20", "|M5X20|", "100"
+   "M6X12", "|M6X12|", "100"
+   "M6X22", "|M6X22|", "100"
+   "M8X20", "|M8X20|", "100"
 
 Mechanical components
 ---------------------
@@ -313,15 +357,19 @@ Mechanical components
 .. |RU66_bearing| image:: ./_static/images/mechanical_components/RU66_bearing.png
    :align: middle
    :width: 100px
-   :alt: RU66_bearing
+
+.. |XRU2512_bearing| image:: ./_static/images/mechanical_components/XRU2512_bearing.png
+   :align: middle
+   :width: 100px
+   
 
 
 .. csv-table:: material statement for mechanical components
-   :header: "Name", "Image", "Quantity", "Notes"
-   :widths: 10, 30, 10, 50
+   :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "bearing", "|RU66_bearing|", "1", "used for connecting chest motor and structural parts"
+   "bearing(RU66)", "|RU66_bearing|", "2"
+   "bearing(XRU2512)", "|XRU2512_bearing|", "2"
 
 
 
@@ -336,12 +384,10 @@ Tools
 .. |hexagon_wrench| image:: ./_static/images/tools/hexagon_wrench.png
    :align: middle
    :width: 100px
-   :alt: used to tighten the screws
 
 .. |torque_wrench| image:: ./_static/images/tools/torque_wrench.png
    :align: middle
    :width: 100px
-   :alt: set torque to avoid screw stripping
 
 .. |vise| image:: ./_static/images/tools/vise.png
    :align: middle
@@ -351,14 +397,16 @@ Tools
 .. |wire_strippers| image:: ./_static/images/tools/wire_strippers.png
    :align: middle
    :width: 100px
-   :alt: stripping wires
 
 .. |multifunctional_wire_stripper| image:: ./_static/images/tools/multifunctional_wire_stripper.png
    :align: middle
    :width: 100px
-   :alt: multifunctional wire stripper
 
-.. |locking_pilers| image:: ./_static/images/tools/locking_pliers.png
+.. |needle_nose_pliers| image:: ./_static/images/tools/needle_nose_pliers.png
+   :align: middle
+   :width: 100px
+
+.. |locking_pliers| image:: ./_static/images/tools/locking_pliers.png
    :align: middle
    :width: 100px
    :alt: pulling out pins
@@ -371,12 +419,10 @@ Tools
 .. |soldering_station_fixture| image:: ./_static/images/tools/soldering_station_fixture.png
    :align: middle
    :width: 100px
-   :alt: fix components and facilitate welding
 
 .. |torque_screwdriver| image:: ./_static/images/tools/torque_screwdriver.png
    :align: middle
    :width: 100px
-   :alt: fix components and facilitate welding
 
 .. |usb_red_can| image:: ./_static/images/tools/usb_red_can.png
    :align: middle
@@ -386,41 +432,81 @@ Tools
 .. |power| image:: ./_static/images/tools/power.png
    :align: middle
    :width: 100px
-   :alt: provide 48V voltage
+
+.. |ark_kinfe| image:: ./_static/images/tools/ark_kinfe.png
+   :align: middle
+   :width: 100px
+
+.. |solder_paste| image:: ./_static/images/tools/solder_paste.png
+   :align: middle
+   :width: 100px
+
+.. |heat_gun| image:: ./_static/images/tools/heat_gun.png
+   :align: middle
+   :width: 100px
+
+.. |electric_soldering_iron| image:: ./_static/images/tools/electric_soldering_iron.png
+   :align: middle
+   :width: 100px
+
+.. |electric_drill| image:: ./_static/images/tools/electric_drill.png
+   :align: middle
+   :width: 100px
+
+.. |file| image:: ./_static/images/tools/file.png
+   :align: middle
+   :width: 100px
+
+.. |tweezers| image:: ./_static/images/tools/tweezers.png
+   :align: middle
+   :width: 100px
+
+
+
 
 
 
 .. csv-table:: material statement for tools
-   :header: "Name", "Image", "Quantity", "Notes"
-   :widths: 10, 30, 10, 50
+   :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "screw glue", "|screw_glue|", "1", "used to prevent the screws from loosening"
-   "hexagon wrench", "|hexagon_wrench|", "1", "used to tighten the screws"
-   "torque wrench", "|torque_wrench|", "1", "set torque to avoid screw stripping"
-   "vise", "|vise|", "1", "securely hold an object in place"
-   "wire stripper", "|wire_strippers|", "1", "stripping wires"
-   "wire stripper", "|multifunctional_wire_stripper|", "1", "stripping wires"
-   "locking pilers", "|locking_pilers|", "1", "pulling out pins"
-   "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
-   "soldering fixture", "|soldering_station_fixture|", "1", "fix components and facilitate welding"
-   "torque screwdriver", "|torque_screwdriver|", "1", "set torque to avoid screw stripping"
-   "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
-   "power", "|power|", "1", "provide 48V voltage"
+   "screw glue", "|screw_glue|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "torque wrench", "|torque_wrench|", "1"
+   "vise", "|vise|", "1"
+   "wire stripper", "|wire_strippers|", "1"
+   "wire stripper", "|multifunctional_wire_stripper|", "1"
+   "needle nose pliers", "|needle_nose_pliers|", "1"
+   "locking pilers", "|locking_pliers|", "1"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1"
+   "soldering fixture", "|soldering_station_fixture|", "1"
+   "torque screwdriver", "|torque_screwdriver|", "1"
+   "usb red can", "|usb_red_can|", "1"
+   "power", "|power|", "1"
+   "ark kinfe", "|ark_kinfe|", "1"
+   "solder paste", "|solder_paste|", "1"
+   "heat gun", "|heat_gun|", "1"
+   "electric soldering iron", "|electric_soldering_iron|", "1"
+   "electric drill", "|electric_drill|", "1"
+   "file", "|file|", "1"
+   "tweezers", "|tweezers|", "1"
+ 
 
 
 Accessories
 -----------
 
-.. |XT30U_m_connector| image:: ./_static/images/accessories/XT30U_m_connector.png
+.. |XT30U_m_connector_1| image:: ./_static/images/accessories/XT30U_m_connector1.png
    :align: middle
    :width: 100px
-   :alt: used for lithium battery plug
+
+.. |XT30U_m_connector_2| image:: ./_static/images/accessories/XT30U_m_connector2.png
+   :align: middle
+   :width: 100px
 
 .. |cold_pressed_round_terminal| image:: ./_static/images/accessories/cold_pressed_round_terminal.png
    :align: middle
    :width: 100px
-   :alt: used for electrical connection
 
 .. |plastic_shell| image:: ./_static/images/accessories/plastic_shell.png
    :align: middle
@@ -435,33 +521,35 @@ Accessories
 .. |reed| image:: ./_static/images/accessories/reed.png
    :align: middle
    :width: 100px
-   :alt: 
 
 .. |silicone_wire| image:: ./_static/images/accessories/silicone_wire.png
    :align: middle
    :width: 100px
-   :alt: 
 
-.. |power_wire_13AWG| image:: ./_static/images/accessories/power_wire_13AWG.png
+.. |power_wire| image:: ./_static/images/accessories/power_wire.png
    :align: middle
    :width: 100px
-   :alt: 
+
+.. |can_wire| image:: ./_static/images/accessories/can_wire.png
+   :align: middle
+   :width: 100px
 
    
 
 
 .. csv-table:: material statement for accessories
-   :header: "Name", "Image", "Quantity", "Notes"
-   :widths: 10, 30, 10, 50
+   :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
-   "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
-   "plastic shell", "|plastic_shell|", "1", ""
-   "lead free solder wire", "|lead_free_solder_wire|", "1", ""
-   "reed", "|reed|", "1", ""
-   "silicone_wire", "|silicone_wire|", "1", ""
-   "power_wire_13AWG", "|power_wire_13AWG|", "1", "power wire material"
+   "XT30U m connector 1", "|XT30U_m_connector_1|", "10"
+   "XT30U m connector 2", "|XT30U_m_connector_2|", "10"
+   "cold pressed round terminal", "|cold_pressed_round_terminal|", "50"
+   "plastic shell", "|plastic_shell|", "50"
+   "lead free solder wire", "|lead_free_solder_wire|", "1"
+   "reed", "|reed|", "1"
+   "silicone wire", "|silicone_wire|", "1"
+   "power wire", "|power_wire|", "1"
+   "can wire", "|can_wire|", "20"
 
 
 
@@ -487,11 +575,11 @@ Material statement
    :class: white-background
 
    "power", "|power|", "1", "provide 48V voltage"
-   "XT30U m connector", "|XT30U_m_connector|", "1", "used for lithium battery plug"
+   "XT30U m connector", "|XT30U_m_connector_1|", "1", "used for lithium battery plug"
    "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
    "wire strippers", "|wire_strippers|", "1", "stripping wires"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
-   "power_wire_13AWG", "|power_wire_13AWG|", "1", "power wire material"
+   "power wire", "|power_wire|", "1", "power wire material"
 
 
 
@@ -527,7 +615,7 @@ Material statement
    :class: white-background
 
    "reed", "|reed|", "1", ""
-   "silicone_wire", "|silicone_wire|", "1", ""
+   "silicone wire", "|silicone_wire|", "1", ""
    "wire strippers", "|wire_strippers|", "1", "stripping wires"
    "wire stripper", "|multifunctional_wire_stripper|", "1", "stripping wires"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
@@ -606,7 +694,7 @@ Material statement
    "waist upper plate", "|waist_motor_upper_plate|", "1", "matched with the left and right fixing plates"
    "waist rotation", "|waist_rotation|", "1", "support the rotation of the waist"
    "hexagon wrench", "|hexagon_wrench|", "1", "used to tighten the screws"
-   "bearing", "|RU66_bearing|", "1", "used for connecting chest motor and structural parts"
+   "bearing(RU66)", "|RU66_bearing|", "1", "used for connecting chest motor and structural parts"
    "M4X30", "|M4X30|", "32", "fix components"
    "M4X45", "|M4X45|", "12", "fix components"
    "M4X16", "|M4X16|", "16", "fix components"
@@ -635,15 +723,18 @@ Secondly, assemble chest motor turntable components.
    :muted:
 
 
+.. ##################################################
+.. ############## right shoulder arm 0 ##############
+.. ##################################################
 
-Right shoulder motor
---------------------
+Right shoulder motor 0
+----------------------
 From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
 
 Material statement
 ++++++++++++++++++
 
-.. csv-table:: material statement for right shoulder
+.. csv-table:: material statement for right shoulder 0
    :header: "Name", "Image", "Quantity", "Notes"
    :widths: 10, 30, 10, 50
    :class: white-background
@@ -662,7 +753,7 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 
-.. video:: ./_static/videos/right_motor_1.mp4
+.. video:: ./_static/videos/right_motor_0.mp4
    :width: 100%
    :autoplay:
    :loop:
@@ -670,8 +761,9 @@ Assemble video(4X speed)
 
 
 
-
-
+.. #########################################################
+.. ############## waist motor zero adjustment ##############
+.. #########################################################
 
 Waist motor zero adjustment
 ---------------------------
@@ -687,13 +779,9 @@ Material Statement
 
    "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
    "M3X30", "|M3X30|", "1", "fix support plate and waist motor"
-   "locking pilers", "|locking_pilers|", "1", "pulling out pins"
+   "locking pilers", "|locking_pliers|", "1", "pulling out pins"
    "power", "|power|", "1", "provide 48V voltage"
-
-
-
-
-
+   "power wire", "|power_wire|", "1", "power wire material"
 
 
 Assemble video(4X speed)
@@ -707,3 +795,127 @@ Assemble video(4X speed)
 
 
 
+.. ############################################################
+.. ############## shoulder motor zero adjustment ##############
+.. ############################################################
+
+Shoulder motor zero adjustment
+------------------------------
+The shoulder motor is adjusted to its zero position through software.
+
+
+Material Statement
+++++++++++++++++++
+
+.. csv-table:: material statement for shoulder motor zero position adjustment
+   :header: "Name", "Image", "Quantity", "Notes"
+   :widths: 10, 30, 10, 50
+   :class: white-background
+
+   "usb red can", "|usb_red_can|", "1", "connect to motor for testing"
+   "M3X30", "|M3X30|", "1", "fix support plate and waist motor"
+   "locking pilers", "|locking_pliers|", "1", "pulling out pins"
+   "power", "|power|", "1", "provide 48V voltage"
+   "power wire", "|power_wire|", "1", "power wire material"
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/shoulder_motor_zero_adjustment.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ############################################################
+.. ############## ph14b motor adjustment ##############
+.. ############################################################
+
+Ph14b motor adjustment
+----------------------
+Modify the wiring of the motor in ph14b.
+
+Material Statement
+++++++++++++++++++
+
+.. csv-table:: material statement for modifying the wiring of the motor in ph14b
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "can wire", "|can_wire|", "1"
+   "ph14b motor", "|ph14b_motor|", "1"
+   "XT30U m connector 2", "|XT30U_m_connector_2|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "ark kinfe", "|ark_kinfe|", "1"
+   "wire stripper", "|wire_strippers|", "1"
+   "solder paste", "|solder_paste|", "1"
+   "needle nose pliers", "|needle_nose_pliers|", "1"
+   "plastic shell", "|plastic_shell|", "50"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1"
+   "heat gun", "|heat_gun|", "1"
+   "soldering fixture", "|soldering_station_fixture|", "1"
+   "lead free solder wire", "|lead_free_solder_wire|", "1"
+   "power wire", "|power_wire|", "1"
+   "electric soldering iron", "|electric_soldering_iron|", "1"
+   "silicone wire", "|silicone_wire|", "1"
+   "reed", "|reed|", "5"
+   "electric drill", "|electric_drill|", "1"
+   "file", "|file|", "1"
+   "tweezers", "|tweezers|", "1"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/ph14b_motor_adjustment.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+.. ##################################################
+.. ############## right shoulder arm 1 ##############
+.. ##################################################
+
+Right shoulder motor 1
+----------------------
+From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right shoulder 1
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M3X14", "|M3X14|", "8"
+   "M3X20", "|M3X20|", "8"
+   "M3X25", "|M3X25|", "8"
+   "M3X35", "|M3X35|", "8"
+   "M5X20", "|M5X20|", "8"
+   "bearing(XRU2512)", "|XRU2512_bearing|", "2"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "torque wrench", "|torque_wrench|", "1"
+   "upper arm", "|upper_arm|", "1"
+   "torque screwdriver", "|torque_screwdriver|", "1"
+   "shoulder plate b", "|shoulder_plate_b|", "1"
+
+
+
+   
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+
+.. video:: ./_static/videos/right_motor_1.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
