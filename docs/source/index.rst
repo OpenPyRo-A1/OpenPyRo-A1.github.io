@@ -78,7 +78,7 @@ Bill of materials (BOM)
 Robot design and procurement resources
 --------------------------------------
 
-:download:`Robot design URDF files <_static/step_files/robot_design.STEP.zip>`
+:download:`Robot design URDF files <_static/urdf_files/openpyro_urdf.zip>`
 
 :download:`Robot design STEP files <_static/step_files/robot_design.STEP.zip>`
 
