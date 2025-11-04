@@ -905,11 +905,6 @@ Material statement
    "torque screwdriver", "|torque_screwdriver|", "1"
    "shoulder plate b", "|shoulder_plate_b|", "1"
 
-
-
-   
-
-
 Assemble video(4X speed)
 ++++++++++++++++++++++++
 
