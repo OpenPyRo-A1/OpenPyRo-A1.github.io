@@ -1,8 +1,0 @@
-/* Override alternating row colors */
-table.white-background tbody tr:nth-child(odd) {
-    background-color: white !important;
-}
-
-table.white-background tbody tr:nth-child(even) {
-    background-color: white !important;
-}
