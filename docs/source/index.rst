@@ -266,6 +266,12 @@ Body structure components
 
 Screws
 ------
+
+.. |M3X5| image:: ./_static/images/screw/M3X5.png
+   :align: middle
+   :width: 100px
+   :alt: M3X5
+
 .. |M3X12| image:: ./_static/images/screw/M3X12.png
    :align: middle
    :width: 100px
@@ -356,6 +362,7 @@ Screws
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
+   "M3X5", "|M3X5|", "100"
    "M3X12", "|M3X12|", "100"
    "M3X14", "|M3X14|", "100"
    "M3X16", "|M3X16|", "100"
@@ -463,6 +470,11 @@ Tools
    :width: 100px
    :alt: connect to motor for testing
 
+.. |can_net| image:: ./_static/images/tools/can_net.png
+   :align: middle
+   :width: 100px
+   :alt: connect to motor for communication
+
 .. |power| image:: ./_static/images/tools/power.png
    :align: middle
    :width: 100px
@@ -471,7 +483,11 @@ Tools
    :align: middle
    :width: 100px
 
-.. |solder_paste| image:: ./_static/images/tools/solder_paste.png
+.. |solder_paste_1| image:: ./_static/images/tools/solder_paste_1.png
+   :align: middle
+   :width: 100px
+
+.. |solder_paste_2| image:: ./_static/images/tools/solder_paste_2.png
    :align: middle
    :width: 100px
 
@@ -503,6 +519,11 @@ Tools
    :align: middle
    :width: 100px
 
+.. |screwdriver| image:: ./_static/images/tools/screwdriver.png
+   :align: middle
+   :width: 100px
+
+
 
 
 
@@ -523,9 +544,11 @@ Tools
    "soldering fixture", "|soldering_station_fixture|", "1"
    "torque screwdriver", "|torque_screwdriver|", "1"
    "usb red can", "|usb_red_can|", "1"
+   "can net", "|can_net|", "1"
    "power", "|power|", "1"
    "ark kinfe", "|ark_kinfe|", "1"
-   "solder paste", "|solder_paste|", "1"
+   "solder paste", "|solder_paste_1|", "1"
+   "solder paste", "|solder_paste_2|", "1"
    "heat gun", "|heat_gun|", "1"
    "electric soldering iron", "|electric_soldering_iron|", "1"
    "electric drill", "|electric_drill|", "1"
@@ -533,6 +556,7 @@ Tools
    "tweezers", "|tweezers|", "1"
    "flexible shaft ratchet screwdriver", "|flexible_shaft_ratchet_screwdriver|", "1"
    "lube", "|lube|", "1"
+   "screwdriver", "|screwdriver|", "1"
  
 
 
@@ -577,6 +601,22 @@ Accessories
    :align: middle
    :width: 100px
 
+.. |vertical_snap_ring_holder| image:: ./_static/images/accessories/vertical_snap_ring_holder(GH1.25_3P).png
+   :align: middle
+   :width: 100px
+
+.. |can_base_3d_print| image:: ./_static/images/accessories/can_base_3d_print.png
+   :align: middle
+   :width: 100px
+
+.. |can_board| image:: ./_static/images/accessories/can_board.png
+   :align: middle
+   :width: 100px
+
+.. |ribbon| image:: ./_static/images/accessories/ribbon.png
+   :align: middle
+   :width: 100px
+
    
 
 
@@ -593,6 +633,10 @@ Accessories
    "silicone wire", "|silicone_wire|", "1"
    "power wire", "|power_wire|", "1"
    "can wire", "|can_wire|", "20"
+   "vertical snap ring holder (GH1.25 3P)", "|vertical_snap_ring_holder|", "20"
+   "can base", "|can_base_3d_print|", "2"
+   "can board", "|can_board|", "2"
+   "ribbon", "|ribbon|", "100"
 
 
 
@@ -893,7 +937,7 @@ Material Statement
    "hexagon wrench", "|hexagon_wrench|", "1"
    "ark kinfe", "|ark_kinfe|", "1"
    "wire stripper", "|wire_strippers|", "1"
-   "solder paste", "|solder_paste|", "1"
+   "solder paste", "|solder_paste_1|", "1"
    "needle nose pliers", "|needle_nose_pliers|", "1"
    "plastic shell", "|plastic_shell|", "50"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1"
@@ -927,7 +971,7 @@ Assemble video(4X speed)
 
 Right shoulder motor 1
 ----------------------
-From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
+Please follow the instructions to assemble.
 
 Material statement
 ++++++++++++++++++
@@ -965,7 +1009,7 @@ Assemble video(4X speed)
 
 Right shoulder motor 2
 ----------------------
-From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
+Please follow the instructions to assemble.
 
 Material statement
 ++++++++++++++++++
@@ -998,6 +1042,48 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/right_motor_2.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ############################################
+.. ############## can data board ##############
+.. ############################################
+
+Can data board
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right shoulder 1
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "vertical snap ring holder (GH1.25 3P)", "|vertical_snap_ring_holder|", "1"
+   "can net", "|can_net|", "1"
+   "can base", "|can_base_3d_print|", "1"
+   "can board", "|can_board|", "1"
+   "ribbon", "|ribbon|", "10"
+   "solder paste", "|solder_paste_2|", "1"
+   "M3X5", "|M3X5|", "10"
+   "wire stripper", "|wire_strippers|", "1"
+   "can wire", "|can_wire|", "20"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1"
+   "heat gun", "|heat_gun|", "1"
+   "silicone wire", "|silicone_wire|", "1"
+   "screwdriver", "|screwdriver|", "1"
+   "tweezers", "|tweezers|", "1"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/can_data_board.mp4
    :width: 100%
    :autoplay:
    :loop:
