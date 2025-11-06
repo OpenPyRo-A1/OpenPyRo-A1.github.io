@@ -276,6 +276,16 @@ Screws
    :width: 100px
    :alt: M3X5
 
+.. |M3X6| image:: ./_static/images/screw/M3X6.png
+   :align: middle
+   :width: 100px
+   :alt: M3X6
+
+.. |M3X8| image:: ./_static/images/screw/M3X8.png
+   :align: middle
+   :width: 100px
+   :alt: M3X8
+
 .. |M3X10| image:: ./_static/images/screw/M3X10.png
    :align: middle
    :width: 100px
@@ -336,6 +346,11 @@ Screws
    :width: 100px
    :alt: M4X10
 
+.. |M4X12| image:: ./_static/images/screw/M4X12.png
+   :align: middle
+   :width: 100px
+   :alt: M4X12
+
 .. |M4X16| image:: ./_static/images/screw/M4X16.png
    :align: middle
    :width: 100px
@@ -350,6 +365,11 @@ Screws
    :align: middle
    :width: 100px
    :alt: M4X45
+
+.. |M5X10| image:: ./_static/images/screw/M5X10.png
+   :align: middle
+   :width: 100px
+   :alt: M5X10
 
 .. |M5X20| image:: ./_static/images/screw/M5X20.png
    :align: middle
@@ -377,6 +397,8 @@ Screws
    :class: white-background
 
    "M3X5", "|M3X5|", "100"
+   "M3X6", "|M3X6|", "100"
+   "M3X8", "|M3X8|", "100"
    "M3X10", "|M3X10|", "100"
    "M3X12", "|M3X12|", "100"
    "M3X14", "|M3X14|", "100"
@@ -389,9 +411,11 @@ Screws
    "M3X45", "|M3X45|", "100"
    "M3X70", "|M3X70|", "100"
    "M4X10", "|M4X10|", "100"
+   "M4X12", "|M4X12|", "100"
    "M4X16", "|M4X16|", "100"
    "M4X30", "|M4X30|", "100"
    "M4X45", "|M4X45|", "100"
+   "M5X10", "|M5X10|", "100"
    "M5X20", "|M5X20|", "100"
    "M6X12", "|M6X12|", "100"
    "M6X22", "|M6X22|", "100"
@@ -543,7 +567,9 @@ Tools
    :align: middle
    :width: 100px
 
-
+.. |scissor| image:: ./_static/images/tools/scissor.png
+   :align: middle
+   :width: 100px
 
 
 
@@ -577,6 +603,7 @@ Tools
    "lube", "|lube|", "1"
    "screwdriver", "|screwdriver|", "1"
    "multimeter", "|multimeter|", "1"
+   "scissor", "|scissor|", "1"
  
 
 
@@ -660,6 +687,10 @@ Accessories
 .. |type-c_16P| image:: ./_static/images/accessories/type-c_16P.png
    :align: middle
    :width: 100px
+
+.. |anti-slip| image:: ./_static/images/accessories/anti-slip.png
+   :align: middle
+   :width: 100px
    
 
 
@@ -686,6 +717,7 @@ Accessories
    "amphenol connector", "|amphenol_connector|", "10"
    "DC voltage reduction module", "|DC_voltage_reduction_module|", "10"
    "type-c 16P", "|type-c_16P|", "5"
+   "anti-slip", "|anti-slip|", "1"
    
 
 
@@ -1163,7 +1195,6 @@ Material statement
    "XT30U m", "|XT30U_m|", "1"
    "XT60U m", "|XT60U_m|", "1"
    "XT60U f", "|XT60U_f|", "1"
-   "multimeter", "|multimeter|", "1"
    "power base", "|power_base_3d_print|", "1"
    "cold pressed round terminal", "|cold_pressed_round_terminal|", "5"
    "wire stripper", "|wire_strippers|", "1"
@@ -1184,6 +1215,40 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/power_board.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+.. ###########################################
+.. ############## right gripper ##############
+.. ###########################################
+
+Right gripper
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right gripper
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "scissor", "|scissor|", "1"
+   "lube", "|lube|", "1"
+   "gripper motor", "|damiao_motor|", "1"
+
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/right_gripper.mp4
    :width: 100%
    :autoplay:
    :loop:
