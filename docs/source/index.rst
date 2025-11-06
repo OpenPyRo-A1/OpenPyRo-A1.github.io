@@ -421,6 +421,20 @@ Screws
    "M6X22", "|M6X22|", "100"
    "M8X20", "|M8X20|", "100"
 
+Pins
+------
+
+.. |M4X6| image:: ./_static/images/pins/M4X6.png
+   :align: middle
+   :width: 100px
+   :alt: M4X6
+
+.. csv-table:: material statement for pins
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M4X6", "|M4X6|", "20"
+
 Mechanical components
 ---------------------
 
@@ -1240,15 +1254,53 @@ Material statement
    "hexagon wrench", "|hexagon_wrench|", "1"
    "scissor", "|scissor|", "1"
    "lube", "|lube|", "1"
+   "M4X6", "|M4X6|", "4"
    "gripper motor", "|damiao_motor|", "1"
-
-
 
 
 Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/right_gripper.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ##################################################
+.. ############## left shoulder arm 0 ##############
+.. ##################################################
+
+Left shoulder motor 0
+----------------------
+From the perspective of the robot, the first motor of the left arm, what we need as follows. Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right shoulder 0
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "waist left fixing", "|waist_motor_left_fixing_part|", "1"
+   "waist right fixing", "|waist_motor_right_fixing_part|", "1"
+   "arm motor 1", "|ph20b_motor|", "1"
+   "M3X30", "|M3X30|", "8"
+   "M3X45", "|M3X45|", "8"
+   "M6X22", "|M6X22|", "8"
+   "scapular right", "|scapular_right|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "torque wrench", "|torque_wrench|", "1"
+   "torque screwdriver", "|torque_screwdriver|", "1"
+   "shoulder plate a", "|shoulder_plate_a|", "1"
+   "shoulder plate b", "|shoulder_plate_b|", "1"
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/right_motor_0.mp4
    :width: 100%
    :autoplay:
    :loop:
