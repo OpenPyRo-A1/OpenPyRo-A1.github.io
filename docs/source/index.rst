@@ -1300,7 +1300,50 @@ Material statement
 Assemble video(4X speed)
 ++++++++++++++++++++++++
 
-.. video:: ./_static/videos/right_motor_0.mp4
+.. video:: ./_static/videos/left_motor_0.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+
+
+.. ##################################################
+.. ############## left shoulder arm 1 ##############
+.. ##################################################
+
+Left shoulder motor 1
+----------------------
+From the perspective of the robot, the first motor of the left arm, what we need as follows. Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for left shoulder 1
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M3X14", "|M3X14|", "8"
+   "M3X20", "|M3X20|", "8"
+   "M3X25", "|M3X25|", "8"
+   "M3X35", "|M3X35|", "8"
+   "M5X20", "|M5X20|", "8"
+   "arm motor 2,3", "|ph17b_motor|", "2"
+   "bearing (XRU2512)", "|XRU2512_bearing|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "torque wrench", "|torque_wrench|", "1"
+   "upper arm", "|upper_arm|", "1"
+   "torque screwdriver", "|torque_screwdriver|", "1"
+   "can wire", "|can_wire|", "6"
+   "shoulder plate b", "|shoulder_plate_b|", "1"
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/left_motor_1.mp4
    :width: 100%
    :autoplay:
    :loop:
