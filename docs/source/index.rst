@@ -306,6 +306,11 @@ Screws
    :width: 100px
    :alt: M3X16
 
+.. |M3X18| image:: ./_static/images/screw/M3X18.png
+   :align: middle
+   :width: 100px
+   :alt: M3X18
+
 .. |M3X20| image:: ./_static/images/screw/M3X20.png
    :align: middle
    :width: 100px
@@ -403,6 +408,7 @@ Screws
    "M3X12", "|M3X12|", "100"
    "M3X14", "|M3X14|", "100"
    "M3X16", "|M3X16|", "100"
+   "M3X18", "|M3X18|", "100"
    "M3X20", "|M3X20|", "100"
    "M3X22", "|M3X22|", "100"
    "M3X25", "|M3X25|", "100"
@@ -1274,7 +1280,7 @@ Assemble video(4X speed)
 
 Left shoulder motor 0
 ----------------------
-From the perspective of the robot, the first motor of the left arm, what we need as follows. Please follow the instructions to assemble.
+Please follow the instructions to assemble.
 
 Material statement
 ++++++++++++++++++
@@ -1316,7 +1322,7 @@ Assemble video(4X speed)
 
 Left shoulder motor 1
 ----------------------
-From the perspective of the robot, the first motor of the left arm, what we need as follows. Please follow the instructions to assemble.
+Please follow the instructions to assemble.
 
 Material statement
 ++++++++++++++++++
@@ -1344,6 +1350,51 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/left_motor_1.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ##################################################
+.. ############## left shoulder arm 2 ##############
+.. ##################################################
+
+Left shoulder motor 2
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for left shoulder 2
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M3X12", "|M3X12|", "8"
+   "M3X16", "|M3X16|", "8"
+   "M3X18", "|M3X18|", "8"
+   "M3X22", "|M3X22|", "8"
+   "M3X30", "|M3X30|", "8"
+   "M3X70", "|M3X70|", "8"
+   "arm motor 4,5", "|ph14b_motor|", "4", "motor model: ph17b"
+   "flexible shaft ratchet screwdriver", "|flexible_shaft_ratchet_screwdriver|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "forearm left", "|forearm_left|", "1"
+   "forearm right", "|forearm_right|", "1"
+   "upper wrist", "|upper_wrist|", "1"
+   "wrist flange", "|wrist_flange|", "1"
+   "elbow left", "|elbow_left|", "1"
+   "elbow right", "|elbow_right|", "1"
+   "lube", "|lube|", "1"
+   "bearing (S6000ZZ)", "|S6000ZZ_bearing|", "2"
+   "bearing retaining ring (10mm)", "|10_mm_bearing_retaining_ring|", "1"
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/left_motor_2.mp4
    :width: 100%
    :autoplay:
    :loop:
