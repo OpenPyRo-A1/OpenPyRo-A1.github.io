@@ -266,16 +266,30 @@ Body structure components
 
 Screws
 ------
+.. |M3X12| image:: ./_static/images/screw/M3X12.png
+   :align: middle
+   :width: 100px
+   :alt: M3X12
 
 .. |M3X14| image:: ./_static/images/screw/M3X14.png
    :align: middle
    :width: 100px
    :alt: M3X14
 
+.. |M3X16| image:: ./_static/images/screw/M3X16.png
+   :align: middle
+   :width: 100px
+   :alt: M3X16
+
 .. |M3X20| image:: ./_static/images/screw/M3X20.png
    :align: middle
    :width: 100px
    :alt: M3X20
+
+.. |M3X22| image:: ./_static/images/screw/M3X22.png
+   :align: middle
+   :width: 100px
+   :alt: M3X22
 
 .. |M3X25| image:: ./_static/images/screw/M3X25.png
    :align: middle
@@ -296,6 +310,11 @@ Screws
    :align: middle
    :width: 100px
    :alt: M3X45
+
+.. |M3X70| image:: ./_static/images/screw/M3X70.png
+   :align: middle
+   :width: 100px
+   :alt: M3X70
 
 .. |M4X16| image:: ./_static/images/screw/M4X16.png
    :align: middle
@@ -337,12 +356,16 @@ Screws
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
+   "M3X12", "|M3X12|", "100"
    "M3X14", "|M3X14|", "100"
+   "M3X16", "|M3X16|", "100"
    "M3X20", "|M3X20|", "100"
+   "M3X22", "|M3X22|", "100"
    "M3X25", "|M3X25|", "100"
    "M3X30", "|M3X30|", "100"
    "M3X35", "|M3X35|", "100"
    "M3X45", "|M3X45|", "100"
+   "M3X70", "|M3X70|", "100"
    "M4X16", "|M4X16|", "100"
    "M4X30", "|M4X30|", "100"
    "M4X45", "|M4X45|", "100"
@@ -361,6 +384,15 @@ Mechanical components
 .. |XRU2512_bearing| image:: ./_static/images/mechanical_components/XRU2512_bearing.png
    :align: middle
    :width: 100px
+
+.. |S6000ZZ_bearing| image:: ./_static/images/mechanical_components/S6000ZZ_bearing.png
+   :align: middle
+   :width: 100px
+
+.. |10_mm_bearing_retaining_ring| image:: ./_static/images/mechanical_components/10_mm_bearing_retaining_ring.png
+   :align: middle
+   :width: 100px
+
    
 
 
@@ -368,8 +400,10 @@ Mechanical components
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "bearing(RU66)", "|RU66_bearing|", "2"
-   "bearing(XRU2512)", "|XRU2512_bearing|", "2"
+   "bearing (RU66)", "|RU66_bearing|", "2"
+   "bearing (XRU2512)", "|XRU2512_bearing|", "2"
+   "bearing (S6000ZZ)", "|S6000ZZ_bearing|", "2"
+   "bearing retaining ring (10mm)", "|10_mm_bearing_retaining_ring|", "2"
 
 
 
@@ -461,6 +495,13 @@ Tools
    :align: middle
    :width: 100px
 
+.. |flexible_shaft_ratchet_screwdriver| image:: ./_static/images/tools/flexible_shaft_ratchet_screwdriver.png
+   :align: middle
+   :width: 100px
+
+.. |lube| image:: ./_static/images/tools/lube.png
+   :align: middle
+   :width: 100px
 
 
 
@@ -490,6 +531,8 @@ Tools
    "electric drill", "|electric_drill|", "1"
    "file", "|file|", "1"
    "tweezers", "|tweezers|", "1"
+   "flexible shaft ratchet screwdriver", "|flexible_shaft_ratchet_screwdriver|", "1"
+   "lube", "|lube|", "1"
  
 
 
@@ -910,6 +953,51 @@ Assemble video(4X speed)
 
 
 .. video:: ./_static/videos/right_motor_1.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ##################################################
+.. ############## right shoulder arm 2 ##############
+.. ##################################################
+
+Right shoulder motor 2
+----------------------
+From the perspective of the robot, the first motor of the right arm, what we need as follows. Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for right shoulder 1
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M3X12", "|M3X12|", "8"
+   "M3X16", "|M3X16|", "8"
+   "M3X22", "|M3X22|", "8"
+   "M3X30", "|M3X30|", "8"
+   "M3X70", "|M3X70|", "8"
+   "motor", "|ph14b_motor|", "1"
+   "flexible shaft ratchet screwdriver", "|flexible_shaft_ratchet_screwdriver|", "1"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "forearm left", "|forearm_left|", "1" 
+   "forearm right", "|forearm_right|", "1"
+   "wrist flange", "|wrist_flange|", "1"
+   "torque screwdriver", "|torque_screwdriver|", "1"
+   "elbow right", "|elbow_right|", "1"
+   "elbow left", "|elbow_left|", "1"
+   "lube", "|lube|", "1"
+   "bearing (S6000ZZ)", "|S6000ZZ_bearing|", "1"
+   "bearing retaining ring (10mm)", "|10_mm_bearing_retaining_ring|", "1"
+
+   
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/right_motor_2.mp4
    :width: 100%
    :autoplay:
    :loop:
