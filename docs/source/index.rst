@@ -89,7 +89,11 @@ Robot design and procurement resources
    Joint motors procurement website: 
    <a href="http://www.eyoubot.com/" target="_blank" rel="noopener noreferrer">link</a><br>
    Gripper motors procurement website: 
-   <a href="https://www.mdmbot.com/" target="_blank" rel="noopener noreferrer">link</a>
+   <a href="https://www.mdmbot.com/" target="_blank" rel="noopener noreferrer">link</a><br>
+   Accessories procurement website: 
+   <a href="https://www.taobao.com/" target="_blank" rel="noopener noreferrer">link</a><br>
+   CNC Machining website: 
+   <a href="https://www.jlc-cnc.com/" target="_blank" rel="noopener noreferrer">link</a><br>
    </p>
 
 
@@ -272,6 +276,11 @@ Screws
    :width: 100px
    :alt: M3X5
 
+.. |M3X10| image:: ./_static/images/screw/M3X10.png
+   :align: middle
+   :width: 100px
+   :alt: M3X10
+
 .. |M3X12| image:: ./_static/images/screw/M3X12.png
    :align: middle
    :width: 100px
@@ -322,6 +331,11 @@ Screws
    :width: 100px
    :alt: M3X70
 
+.. |M4X10| image:: ./_static/images/screw/M4X10.png
+   :align: middle
+   :width: 100px
+   :alt: M4X10
+
 .. |M4X16| image:: ./_static/images/screw/M4X16.png
    :align: middle
    :width: 100px
@@ -363,6 +377,7 @@ Screws
    :class: white-background
 
    "M3X5", "|M3X5|", "100"
+   "M3X10", "|M3X10|", "100"
    "M3X12", "|M3X12|", "100"
    "M3X14", "|M3X14|", "100"
    "M3X16", "|M3X16|", "100"
@@ -373,6 +388,7 @@ Screws
    "M3X35", "|M3X35|", "100"
    "M3X45", "|M3X45|", "100"
    "M3X70", "|M3X70|", "100"
+   "M4X10", "|M4X10|", "100"
    "M4X16", "|M4X16|", "100"
    "M4X30", "|M4X30|", "100"
    "M4X45", "|M4X45|", "100"
@@ -523,6 +539,9 @@ Tools
    :align: middle
    :width: 100px
 
+.. |multimeter| image:: ./_static/images/tools/multimeter.png
+   :align: middle
+   :width: 100px
 
 
 
@@ -557,17 +576,26 @@ Tools
    "flexible shaft ratchet screwdriver", "|flexible_shaft_ratchet_screwdriver|", "1"
    "lube", "|lube|", "1"
    "screwdriver", "|screwdriver|", "1"
+   "multimeter", "|multimeter|", "1"
  
 
 
 Accessories
 -----------
 
-.. |XT30U_m_connector_1| image:: ./_static/images/accessories/XT30U_m_connector1.png
+.. |XT30U_m| image:: ./_static/images/accessories/XT30U_m.png
    :align: middle
    :width: 100px
 
-.. |XT30U_m_connector_2| image:: ./_static/images/accessories/XT30U_m_connector2.png
+.. |XT30U_f| image:: ./_static/images/accessories/XT30U_f.png
+   :align: middle
+   :width: 100px
+
+.. |XT60U_m| image:: ./_static/images/accessories/XT60U_m.png
+   :align: middle
+   :width: 100px
+
+.. |XT60U_f| image:: ./_static/images/accessories/XT60U_f.png
    :align: middle
    :width: 100px
 
@@ -609,6 +637,10 @@ Accessories
    :align: middle
    :width: 100px
 
+.. |power_base_3d_print| image:: ./_static/images/accessories/power_base_3d_print.png
+   :align: middle
+   :width: 100px
+
 .. |can_board| image:: ./_static/images/accessories/can_board.png
    :align: middle
    :width: 100px
@@ -617,6 +649,17 @@ Accessories
    :align: middle
    :width: 100px
 
+.. |amphenol_connector| image:: ./_static/images/accessories/amphenol_connector.png
+   :align: middle
+   :width: 100px
+
+.. |DC_voltage_reduction_module| image:: ./_static/images/accessories/DC_voltage_reduction_module.png
+   :align: middle
+   :width: 100px
+
+.. |type-c_16P| image:: ./_static/images/accessories/type-c_16P.png
+   :align: middle
+   :width: 100px
    
 
 
@@ -624,8 +667,10 @@ Accessories
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "XT30U m connector 1", "|XT30U_m_connector_1|", "10"
-   "XT30U m connector 2", "|XT30U_m_connector_2|", "10"
+   "XT30U m", "|XT30U_m|", "10"
+   "XT30U f", "|XT30U_f|", "10"
+   "XT60U m", "|XT60U_m|", "10"
+   "XT60U f", "|XT60U_f|", "10"
    "cold pressed round terminal", "|cold_pressed_round_terminal|", "50"
    "plastic shell", "|plastic_shell|", "50"
    "lead free solder wire", "|lead_free_solder_wire|", "1"
@@ -635,11 +680,13 @@ Accessories
    "can wire", "|can_wire|", "20"
    "vertical snap ring holder (GH1.25 3P)", "|vertical_snap_ring_holder|", "20"
    "can base", "|can_base_3d_print|", "2"
+   "power base", "|power_base_3d_print|", "2"
    "can board", "|can_board|", "2"
    "ribbon", "|ribbon|", "100"
-
-
-
+   "amphenol connector", "|amphenol_connector|", "10"
+   "DC voltage reduction module", "|DC_voltage_reduction_module|", "10"
+   "type-c 16P", "|type-c_16P|", "5"
+   
 
 
 
@@ -662,7 +709,7 @@ Material statement
    :class: white-background
 
    "power", "|power|", "1", "provide 48V voltage"
-   "XT30U m connector", "|XT30U_m_connector_1|", "1", "used for lithium battery plug"
+   "XT30U m connector", "|XT30U_m|", "1", "used for lithium battery plug"
    "cold pressed round terminal", "|cold_pressed_round_terminal|", "1", "used for electrical connection"
    "wire strippers", "|wire_strippers|", "1", "stripping wires"
    "diagonal pliers", "|diagonal_cutting_pliers|", "1", "cutting wires"
@@ -933,7 +980,7 @@ Material Statement
 
    "can wire", "|can_wire|", "1"
    "ph14b motor", "|ph14b_motor|", "1"
-   "XT30U m connector 2", "|XT30U_m_connector_2|", "1"
+   "XT30U m connector 2", "|XT30U_f|", "1"
    "hexagon wrench", "|hexagon_wrench|", "1"
    "ark kinfe", "|ark_kinfe|", "1"
    "wire stripper", "|wire_strippers|", "1"
@@ -1014,7 +1061,7 @@ Please follow the instructions to assemble.
 Material statement
 ++++++++++++++++++
 
-.. csv-table:: material statement for right shoulder 1
+.. csv-table:: material statement for right shoulder 2
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
@@ -1059,7 +1106,7 @@ Please follow the instructions to assemble.
 Material statement
 ++++++++++++++++++
 
-.. csv-table:: material statement for right shoulder 1
+.. csv-table:: material statement for can data board
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
@@ -1084,6 +1131,59 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/can_data_board.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+.. ############################################
+.. ############## power board ##############
+.. ############################################
+
+Power board
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for power board
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "amphenol connector", "|amphenol_connector|", "1"
+   "DC voltage reduction module", "|DC_voltage_reduction_module|", "10"
+   "multimeter", "|multimeter|", "1"
+   "M3X10", "|M3X10|", "5"
+   "M3X14", "|M3X14|", "5"
+   "M4X10", "|M4X10|", "5"
+   "type-c 16P", "|type-c_16P|", "1"
+   "XT30U m", "|XT30U_m|", "1"
+   "XT60U m", "|XT60U_m|", "1"
+   "XT60U f", "|XT60U_f|", "1"
+   "multimeter", "|multimeter|", "1"
+   "power base", "|power_base_3d_print|", "1"
+   "cold pressed round terminal", "|cold_pressed_round_terminal|", "5"
+   "wire stripper", "|wire_strippers|", "1"
+   "diagonal pliers", "|diagonal_cutting_pliers|", "1"
+   "heat gun", "|heat_gun|", "1"
+   "soldering fixture", "|soldering_station_fixture|", "1"
+   "lead free solder wire", "|lead_free_solder_wire|", "1"
+   "solder paste", "|solder_paste_1|", "1"
+   "power", "|power|", "1"
+   "power wire", "|power_wire|", "1"
+   "electric soldering iron", "|electric_soldering_iron|", "1"
+   "vise", "|vise|", "1"
+   "screwdriver", "|screwdriver|", "1"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/power_board.mp4
    :width: 100%
    :autoplay:
    :loop:
