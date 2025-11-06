@@ -391,6 +391,11 @@ Screws
    :width: 100px
    :alt: M6X22
 
+.. |M6X30| image:: ./_static/images/screw/M6X30.png
+   :align: middle
+   :width: 100px
+   :alt: M6X30
+
 .. |M8X20| image:: ./_static/images/screw/M8X20.png
    :align: middle
    :width: 100px
@@ -425,6 +430,7 @@ Screws
    "M5X20", "|M5X20|", "100"
    "M6X12", "|M6X12|", "100"
    "M6X22", "|M6X22|", "100"
+   "M6X30", "|M6X30|", "100"
    "M8X20", "|M8X20|", "100"
 
 Pins
@@ -711,6 +717,10 @@ Accessories
 .. |anti-slip| image:: ./_static/images/accessories/anti-slip.png
    :align: middle
    :width: 100px
+
+.. |magnet_ring| image:: ./_static/images/accessories/magnet_ring.png
+   :align: middle
+   :width: 100px
    
 
 
@@ -738,6 +748,7 @@ Accessories
    "DC voltage reduction module", "|DC_voltage_reduction_module|", "10"
    "type-c 16P", "|type-c_16P|", "5"
    "anti-slip", "|anti-slip|", "1"
+   "magnet ring", "|magnet_ring|", "10"
    
 
 
@@ -1427,6 +1438,38 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/left_gripper.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+
+.. ##########################################
+.. ############## wire tidy up ##############
+.. ##########################################
+
+Wire tidy up
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for wire tidy up
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "M6X30", "|M6X30|", "10"
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "magnet ring", "|magnet_ring|", "10"
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/wire_tidy_up.mp4
    :width: 100%
    :autoplay:
    :loop:
