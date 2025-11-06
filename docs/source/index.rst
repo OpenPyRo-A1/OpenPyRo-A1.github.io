@@ -1399,3 +1399,35 @@ Assemble video(4X speed)
    :autoplay:
    :loop:
    :muted:
+
+
+.. ###########################################
+.. ############## left gripper ##############
+.. ###########################################
+
+Left gripper
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for left gripper
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "hexagon wrench", "|hexagon_wrench|", "1"
+   "scissor", "|scissor|", "1"
+   "lube", "|lube|", "1"
+   "M4X6", "|M4X6|", "4"
+   "gripper motor", "|damiao_motor|", "1"
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/left_gripper.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
