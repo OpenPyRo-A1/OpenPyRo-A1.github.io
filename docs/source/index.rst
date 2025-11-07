@@ -436,16 +436,23 @@ Screws
 Pins
 ------
 
-.. |M4X6| image:: ./_static/images/pins/M4X6.png
+.. |pin_M4X6| image:: ./_static/images/pins/pin_M4X6.png
    :align: middle
    :width: 100px
-   :alt: M4X6
+   :alt: pin_M4X6
+
+.. |pin_M3X30| image:: ./_static/images/pins/pin_M3X30.png
+   :align: middle
+   :width: 100px
+   :alt: pin_M3X30
 
 .. csv-table:: material statement for pins
    :header: "Name", "Image", "Quantity"
    :class: white-background
 
-   "M4X6", "|M4X6|", "20"
+   "pin_M3X30", "|pin_M3X30|", "20"
+   "pin_M4X6", "|pin_M4X6|", "20"
+
 
 Mechanical components
 ---------------------
@@ -597,6 +604,9 @@ Tools
    :align: middle
    :width: 100px
 
+.. |gradienter| image:: ./_static/images/tools/gradienter.png
+   :align: middle
+   :width: 100px
 
 
 .. csv-table:: material statement for tools
@@ -630,6 +640,7 @@ Tools
    "screwdriver", "|screwdriver|", "1"
    "multimeter", "|multimeter|", "1"
    "scissor", "|scissor|", "1"
+   "gradienter", "|gradienter|", "1"
  
 
 
@@ -1271,7 +1282,7 @@ Material statement
    "hexagon wrench", "|hexagon_wrench|", "1"
    "scissor", "|scissor|", "1"
    "lube", "|lube|", "1"
-   "M4X6", "|M4X6|", "4"
+   "pin_M4X6", "|pin_M4X6|", "4"
    "gripper motor", "|damiao_motor|", "1"
 
 
@@ -1279,7 +1290,7 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/right_gripper.mp4
-   :width: 100%
+   :width: 100% 
    :autoplay:
    :loop:
    :muted:
@@ -1430,7 +1441,7 @@ Material statement
    "hexagon wrench", "|hexagon_wrench|", "1"
    "scissor", "|scissor|", "1"
    "lube", "|lube|", "1"
-   "M4X6", "|M4X6|", "4"
+   "pin_M4X6", "|pin_M4X6|", "4"
    "gripper motor", "|damiao_motor|", "1"
 
 
@@ -1504,6 +1515,41 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/motor_number.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ##################################################
+.. ############## arms zero adjustment ##############
+.. ##################################################
+
+Arms zero adjustment
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for arms zero adjustment
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "usb red can", "|usb_red_can|", "1"
+   "pin_M3X30", "|pin_M3X30|", "5"
+   "locking pilers", "|locking_pliers|", "1"
+   "gradienter", "|gradienter|", "1"
+   "power", "|power|", "1"
+   "power wire", "|power_wire|", "1"
+
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/arms_zero_adjustment.mp4
    :width: 100%
    :autoplay:
    :loop:
