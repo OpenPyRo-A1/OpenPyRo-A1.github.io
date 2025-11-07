@@ -1474,3 +1474,37 @@ Assemble video(4X speed)
    :autoplay:
    :loop:
    :muted:
+
+
+
+
+
+.. ##########################################
+.. ############## motor number ##############
+.. ##########################################
+
+Motor number
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for motor number
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "power", "|power|", "1"
+   "power wire", "|power_wire|", "1"
+
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/motor_number.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
