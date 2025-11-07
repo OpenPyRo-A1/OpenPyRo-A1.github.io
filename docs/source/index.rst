@@ -732,6 +732,10 @@ Accessories
 .. |magnet_ring| image:: ./_static/images/accessories/magnet_ring.png
    :align: middle
    :width: 100px
+
+.. |adhesive_tape| image:: ./_static/images/accessories/adhesive_tape.png
+   :align: middle
+   :width: 100px
    
 
 
@@ -760,6 +764,7 @@ Accessories
    "type-c 16P", "|type-c_16P|", "5"
    "anti-slip", "|anti-slip|", "1"
    "magnet ring", "|magnet_ring|", "10"
+   "adhesive tape", "|adhesive_tape|", "1"
    
 
 
@@ -1550,6 +1555,39 @@ Assemble video(4X speed)
 ++++++++++++++++++++++++
 
 .. video:: ./_static/videos/arms_zero_adjustment.mp4
+   :width: 100%
+   :autoplay:
+   :loop:
+   :muted:
+
+
+.. ###########################################
+.. ############## whole tidy up ##############
+.. ###########################################
+
+Whole tidy up
+----------------------
+Please follow the instructions to assemble.
+
+Material statement
+++++++++++++++++++
+
+.. csv-table:: material statement for whole tidy up
+   :header: "Name", "Image", "Quantity"
+   :class: white-background
+
+   "usb red can", "|usb_red_can|", "1"
+   "adhesive tape", "|adhesive_tape|", "1"
+   "power", "|power|", "1"
+   "power wire", "|power_wire|", "1"
+
+
+
+
+Assemble video(4X speed)
+++++++++++++++++++++++++
+
+.. video:: ./_static/videos/whole_tidy_up.mp4
    :width: 100%
    :autoplay:
    :loop:
